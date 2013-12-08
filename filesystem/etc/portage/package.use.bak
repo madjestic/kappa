@@ -1,0 +1,39 @@
+# required by dev-util/kdevelop-4.5.1
+# required by dev-util/kdevelop-python-1.5.2
+# required by kdevelop-python (argument)
+=dev-qt/qtdeclarative-4.8.4 webkit
+# required by www-client/chromium-30.0.1599.101
+# required by chromium (argument)
+>=dev-libs/libxml2-2.9.1-r1 icu
+kde-base/kopete oscar skype
+x11-libs/qt-webkit icu
+net-p2p/transmission -gtk
+app-emulation/qemu -gtk
+# required by dev-util/kdevelop-4.5.1
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtdeclarative-4.8.5 webkit
+# required by kde-misc/synaptiks-0.8.1-r2
+# required by kde-misc/synaptiks (argument)
+=dev-python/pyudev-0.16.1 pyqt4
+# required by mail-client/thunderbird-17.0.9
+# required by thunderbird (argument)
+=dev-lang/python-2.7.5-r3 sqlite
+# required by media-libs/sk1libs-0.9.1
+# required by media-gfx/uniconvertor-1.1.5
+# required by media-gfx/inkscape-0.48.4
+# required by media-gfx/inkscape (argument)
+=media-libs/lcms-1.19 python
+# required by media-sound/amarok-2.7.1-r1
+# required by media-sound/amarok (argument)
+=virtual/mysql-5.1 embedded
+# required by virtual/mysql-5.1
+# required by media-sound/amarok-2.7.1-r1
+# required by media-sound/amarok (argument)
+=dev-db/mysql-5.1.70 embedded
+# required by sci-libs/scipy-0.12.1
+# required by sci-libs/scipy (argument)
+>=dev-python/numpy-1.7.1 lapack
+# required by dev-python/ipython-1.1.0[python_targets_python3_2]
+# required by =dev-python/ipython-1.1.0 (argument)
+>=dev-lang/python-3.2.5-r3:3.2 sqlite

@@ -1,0 +1,18 @@
+ auto-complete      20130724.... installed  Auto Completion for GNU Emacs [github]
+  auto-complete-c... 20130526.... installed  Auto Completion source for clang for GNU Emacs [github]
+  ecb                20130826.... installed  a code browser for Emacs [github]
+  flymake-easy       20130907.931 installed  Helpers for easily building flymake checkers [github]
+  flymake-haskell... 20130620.... installed  Syntax-check haskell-mode using both ghc and hlint [github]
+  flymake-hlint      20130309.945 installed  A flymake handler for haskell-mode files using hlint [github]
+  ghc                20130520.... installed  Sub mode for Haskell mode [github]
+  ghci-completion    20130310.836 installed  Completion for GHCi commands in inferior-haskell buffers [github]
+  haskell-mode       20131124.... installed  A Haskell editing mode
+  iedit              20130629.... installed  Edit multiple regions in the same way simultaneously. [github]
+  melpa              20130815.... installed  special handling for the MELPA repository [github]
+  minimap            20110427.... installed  Minimap sidebar for Emacs [git]
+  popup              20130708.... installed  Visual Popup User Interface [github]
+  powerline          20130905.... installed  Rewrite of Powerline [github]
+  smooth-scroll      20130321.... installed  Minor mode for smooth scrolling and in-place scrolling. [github]
+  yasnippet          20130907.... installed  Yet another snippet extension for Emacs. [github]
+  yasnippet-bundle   0.6.1        installed  Yet another snippet extension (Auto compiled bundle)
+ 

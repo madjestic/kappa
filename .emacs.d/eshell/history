@@ -1,0 +1,128 @@
+ghc Main.hs -o triangle
+optirun ./triangle
+ghc Main.hs -o triangle
+optirun ./triangle
+ghc Main.hs -o triangle
+rm triangle 
+ghc Main.hs -o triangle
+optirun ./triangle
+cd ..
+ls
+cd triangle/
+ls
+ls
+ghc Main.hs -o main
+optirun ./main 
+ghc triangle_02.hs -o triangle_02
+ls
+./triangle_02 
+optirun ./triangle_02
+make
+cd ..
+cd triangle/
+ls
+make
+ls
+ghc triangle_02.hs -o triangle
+ls
+make
+ls
+make
+ls
+make
+ls
+ghc triangle_02.hs -o triangle_02
+ls
+optirun ./triangle_02
+make
+Linking triangle_02 ...
+ghc triangle_02.hs -o triangle_02
+make
+make
+make
+make triangle_02.hs
+make
+make foo
+make triangle_02.hs
+make Makefile 
+make -f Makefile 
+make -f Makefile triangle_02.hs
+cp Makefile MakefileAlt
+ls
+make
+optirun triangle
+optirun ./triangle
+make -f MakefileAlt
+optirun ./triangle_02
+make -f MakefileAlt
+optirun ./triangle_02
+cp ../triangle_02/Main.hs ./triangle_02.hs
+make -f MakefileAlt
+optirun ./triangle_02
+make -f MakefileAlt
+optirun ./triangle_02
+make -f MakefileAlt
+optirun ./triangle_02.hi
+optirun ./triangle_02
+make -f MakefileAlt
+optirun ./triangle_02
+cp triangle_02.hs ../triangle_02/Main.hs
+cp Makefile ../triangle_02/
+cd ../triangle_02/
+ls
+ls
+rm triangle
+ghc Main.hs -o triangle_02
+optirun ./triangle_02
+cp Main.hs Main.hs.bak
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+make
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+optirun ./triangle_02
+make
+make
+optirun ./triangle_02
+ls
+mv Main.hs.bak.orig ./junk/
+cp Main.hs ./junk/Main.hs.work
+ghci
+ghci
+ls
+cd ..
+ls
+cd ..
+ls
+cd Diagrams/
+ls
+ghc --make DiagramsTutorial.hs 
+ls
+./DiagramsTutorial -o circle.svg
+chromiumm circle.svg 
+ghc --make DiagramsTutorial.hs 
+./DiagramsTutorial -o circle.svg -w 400
+ls
+ghc --make foo.lhs
+HasStyle a,
+ghc --make foo.lhs
+./foo -o foo.svg -w 400
+ls
+cp Main.hs Main.hs.bak
+etags Main.hs
+ls
+vim #TAGS#

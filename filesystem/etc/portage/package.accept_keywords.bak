@@ -1,0 +1,24 @@
+=sys-firmware/iwl2030-ucode-18.168.6.1 ~amd64
+# required by haskell-platform (argument)
+=dev-haskell/haskell-platform-2013.2.0.0 ~amd64
+# required by kdevelop-python (argument)
+=dev-util/kdevelop-python-1.5.2 ~amd64
+# required by dev-haskell/cabal-install-1.18.0.1
+# required by cabal-install (argument)
+=dev-haskell/cabal-1.18.0 ~amd64
+# required by cabal-install (argument)
+=dev-haskell/cabal-install-1.18.0.1 ~amd64
+# required by dev-python/numpydoc (argument)
+=dev-python/numpydoc-0.4-r1 ~amd64
+# required by dev-python/g-pypi-0.3
+# required by dev-python/g-pypi (argument)
+=dev-python/yolk-0.4.3-r1 ~amd64
+# required by dev-python/g-pypi-0.3
+# required by dev-python/g-pypi (argument)
+=dev-python/sphinxcontrib-googleanalytics-0.1 ~amd64
+# required by dev-python/g-pypi (argument)
+=dev-python/g-pypi-0.3 ~amd64
+# required by dev-python/yolk-0.4.3-r1
+# required by dev-python/g-pypi-0.3
+# required by dev-python/g-pypi (argument)
+=dev-python/yolk-portage-0.1-r1 ~amd64
