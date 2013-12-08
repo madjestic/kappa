@@ -1,180 +1,3 @@
-make
-vim Makefile
-make
-make
-ls /usr/lib/qt4/
-cd /usr/include/
-ls
-cd qt4
-ls
-vim Makefile
-cd ~/Projects/CPP/OpenGL/Excercises/triangle_02/
-ls
-vim Makefile
-make
-ls /usr/include/qt4
-vim Makefile
-ls /usr/include/qt4/Qt
-vim Makefile
-make
-make
-vim Makefile
-make
-ls
-ls -la
-vim .kdev_include_paths 
-make
-rm triangle
-make
-make
-vim .kdev_include_paths 
-vim Makefile
-make
-vim Makefile
-make
-vim Makefile
-make
-vim Makefile
-make
-vim Makefile
-make
-make
-vim Makefile
-make
-vim Makefile
-make
-vim Makefile
-make --help
-vim Makefile
-make
-vim Makefile
-make
-vim Makefile
-make
-vim Makefile
-vim Makefile
-vim Makefile
-make
-vim Makefile
-make --help
-vim Makefile
-make
-vim Makefile
-vim Makefile.bak 
-make
-cp Makefile.bak Makefile
-make
-vim Makefile.bak 
-vim Makefile
-make
-qmake 
-ls
-emacs triangle.pro
-locate glew.h
-ls
-vim Makefile
-vim ls
-vim triangle.pro
-rm Makefile
-history | grep -i qmake
-locate glew
-locate glew.h
-locate glew.c
-locate wglew.c
-vim Makefile
-su
-locate glew.h
-locate gl.h
-ls
-emacs
-eix gtags
-gtags
-eix global
-su
-ls
-gtags
-ls
-vim GTAGS 
-emacs
-ls
-mkdir GL
-locate glew.h
-ln --help
-locate glew.h
-ls
-cd GL/
-ln -s /usr/include/GL/glew.h glew.h
-ls
-ln -s /usr/include/GL/gl.h gl.h
-ls
-cd ..
-ls
-rm triangle
-su
-cd ~
-git add ./Projects/*
-git commit -w 
-git commit
-git push origin
-git push origin
-emacs --daemon
-ec
-alias ec=emacsclient
-ec
-emacsclient
-emacsclient --help
-emacsclient -c
-alias ec=emacsclient\ -c
-ec
-echo "alias ec=emacsclient\ -c" >> .bashrc
-git rm --cached
-git rm --cached *
-git rm --cached ./*
-ls
-ls -la
-rm -rf .git
-git init
-cd Projects/
-cd Haskell/OpenGL/GLUT/
-ls
-vim README 
-vim Main.hs
-cd ../..
-ls
-vim .gitignore
-vim .gitignore
-echo "cabal" >> .gitignore 
-vim .gitignore
-echo "Scheme48h" >> .gitignore 
-echo "Shuklan" >> .gitignore 
-echo "Leksah" >> .gitignore 
-echo "Dump" >> .gitignore 
-echo "EmacsTest" >> .gitignore 
-echo "BMP" >> .gitignore 
-echo "Diagrams" >> .gitignore 
-vim .gitignore 
-cd ..
-ls
-echo "GTK+" >> .gitignore
-echo "Houdini" >> .gitignore
-echo "NodeBox" >> .gitignore
-echo "darc_test" >> .gitignore
-echo "darc_test" >> .gitignore
-echo "" >> .gitignore
-cd Bookmarks
-ls
-cd Letters/
-ls
-ls
-ls -la
-cd .dump
-ls
-cd ..
-cd ..
-echo "Letters" >> .gitignore
-ls -la
-cd ..
-ls
 vim .gitignore 
 cd ..
 ls
@@ -498,3 +321,273 @@ ls -la
 ./partclone.info 
 kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
 kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
+cd Projects/CPP/OpenGL/Excercises/triangle_02/
+ls
+vim .kdev_include_paths 
+ls
+cat .kdev_include_paths 
+ls
+cd Projects/
+ls
+cd Bookmarks/
+ls
+cd Data\ Structures/
+ls
+cd FFI/
+ls
+cd ..
+cd ..
+ls
+cd ..
+ls
+cd Haskell/
+ls
+rm -rf gloss
+ls
+cd OpenGL/
+ls
+cd ..
+ls
+rm OpenGL
+rm -rf OpenGL
+ls
+cd FFI/
+ls
+cd ..
+ls
+rm -rf FFI/
+ls
+cd Entropy/
+ls
+cd prototypes/
+ls
+cd ..
+cd ..
+ls
+rm Entropy
+rm -rf Entropy
+ls
+ls
+cd ..
+ls
+cd Bookmarks/
+ls
+ls -la
+mkdir .dump
+ls
+cd Letters
+ls
+ls
+touch .gitignore
+ls
+ls -la
+cd ..
+ls
+cd ..
+ls
+cd vcs/
+ls
+mkdir foo
+ls
+cd foo/
+touch foo
+ls
+mkdir bar
+cd bar/
+ls
+touch bar
+ls
+cd ..
+ls
+cd ..
+ls
+cd foo/bar/
+ls
+ls -la
+touch .gitignore
+ls
+ls -la
+cd ..
+ls -la
+cd ..
+ls
+ls -la
+git add foo
+git status
+git rm --cached *
+git rm --cached foo
+git rm -r --cached foo
+ls
+cd foo/
+ls
+cd bar
+ls
+cd ..
+cd ..
+ls
+ls
+vim foo/bar/.gitignore 
+git add foo
+git status
+vim foo/bar/.gitignore 
+git rm -r --cached foo
+git rm -rf --cached foo
+ls
+git add foo
+gitstatus
+git status
+git rm -rf --cached foo
+cd ~
+vim .gitignore_global 
+vim .gitignore
+echo "Projects/vcs/foo/bar" >> .gitignore
+git add Projects/vcs/foo
+git status
+cd Projects/Haskell/
+ls
+cd ..
+ls
+cd ~
+echo "Projects/Bookmarks/Letters" >> .gitignore
+echo "Projects/GTK+" >> .gitignore
+echo "Projects/Houdini" >> .gitignore
+echo "Projects/NodeBox" >> .gitignore
+echo "Projects/vcs" >> .gitignore
+echo "Projects/darc_test" >> .gitignore
+git add Projects
+git status
+history | grep -i git
+echo $HISTFILE && echo $HISTSIZE
+echo $HISTSIZE
+echo "HISTSIZE=9999" >> .bashrc
+source .bashrc
+echo $HISTSIZE
+git commit -a
+git init
+git commit -aw
+git commit -a
+git push origin master
+git remote add origin https://github.com/madjestic/kappa
+git push origin master
+git pull
+git pull https://github.com/madjestic/kappa master
+rm README.md 
+git pull https://github.com/madjestic/kappa master
+git status
+git push origin master
+git status
+git --help
+ls
+ls
+git rm README.md 
+git status
+git commit -am "Deleting README."
+git commit -am "Deleting README.md"
+git push origin
+git add .*
+git add ./.*
+git status
+git add .bash*
+git add .emacs*
+git add .irssi
+git add /etc/portage/.package.*
+git add /etc/portage/.package.use
+ls
+cd windows/
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+cd glfw/
+ls
+cd window_test/
+ls
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make -I/home/madjestic/Projects/CPP/OpenGL/Excercises/glfw/window_test/GLFW/include/GLFW
+make -I/home/madjestic/Projects/CPP/OpenGL/Excercises/glfw/window_test/GLFW/include/GLFW -o test
+make -I/home/madjestic/Projects/CPP/OpenGL/Excercises/glfw/window_test/GLFW/include/GLFW/ -o test
+ls
+ls GLFW/include/GLFW/
+make -I/GLFW/include/GLFW/ -o test
+gcc -I/GLFW/include/GLFW "-Wall" -g -o window_test main.c
+gcc -I/GLFW/include/GLFW -g -o window_test main.c
+gcc -I/home/madjestic/Projects/CPP/OpenGL/Excercises/glfw/window_test/GLFW/include/GLFW -g -o window_test main.c
+gcc -I/home/madjestic/Projects/CPP/OpenGL/Excercises/glfw/window_test/GLFW/include/ -g -o window_test main.c
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+ls
+ls -la
+vim .kdev_include_paths 
+vim Makefile 
+make
+gcc -I/GLFW/include/GLFW -g -o window_test main.c
+gcc -I/home/madjestic/Projects/CPP/OpenGL/Excercises/glfw/window_test/GLFW/include/ -g -o window_test main.c
+eix glfw
+locate glfw
+locate glfw.so
+cd ../../
+cd ../CPP/OpenGL/
+ls
+cd Excercises/
+ls
+ls
+cp triangle_02 triangle_02_glfw
+cp -R triangle_02 triangle_02_glfw
+cd triangle_02_glfw/
+ls
+vim triangle.proj
+vim triangle.pro
+vim triangle.pro
+vim Makefile
+cd ..
+mkdir glfw
+ls
+ls
+cd glfw/
+ls
+rm -rf window_test
+su
+ls
+cd ..
+ls
+cd triangle_02
+ls
+vim Makefile
+cd ..
+cd triangle_01
+ls
+vim Makefile 
+;s
+cd ..
+cd triangle_02
+ls
+vim Makefile
+vim Makefile

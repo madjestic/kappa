@@ -30,7 +30,8 @@
 
 (haskell-indentation-mode)
 
-(iedit-mode)
+;;(iedit-mode)
+(minimap-create)
 
 (require 'flymake-haskell-multi)
 (add-hook 'haskell-mode-hook 'flymake-haskell-multi-load)
