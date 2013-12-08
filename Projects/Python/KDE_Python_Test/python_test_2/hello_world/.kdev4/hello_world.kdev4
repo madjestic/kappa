@@ -1,0 +1,24 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+
+[Launch]
+Launch Configurations=Launch Configuration 1
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=New Script Application Launcher
+Type=Script Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=
+EnvironmentGroup=default
+Executable=file:///home/madjestic/Projects/Python/KDE_Python_Test/python_test_2/hello_world/hello_world.py
+Execute on Remote Host=false
+Interpreter=/usr/bin/python
+Output Filtering Mode=0
+Remote Host=
+Working Directory=
+
+[Project]
+VersionControlSupport=kdevgit

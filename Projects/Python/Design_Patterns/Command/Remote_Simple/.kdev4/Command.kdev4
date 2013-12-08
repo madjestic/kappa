@@ -1,0 +1,21 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0e\x00C\x00o\x00m\x00m\x00a\x00n\x00d)
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=New Script Application Launcher (2)
+Type=Script Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+EnvironmentGroup=default
+Executable=file:///home/madjestic/Projects/Python/Design_Patterns/Command/Remote_Simple/main.py
+Execute on Remote Host=false
+Interpreter=python
+Output Filtering Mode=0
+Remote Host=
+Working Directory=file:///home/madjestic/Projects/Python/Design_Patterns/Command/Remote_Simple
