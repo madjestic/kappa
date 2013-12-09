@@ -1,7 +1,7 @@
-((("active" .
-   [1 0 0 0 0 0])
-  ("ColorBuffer" .
-   [0 0 0 0 0 1 0 0 0 0 0])
+((("onDisplay" .
+   [0 0 0 1 0 0 0 0 0])
+  ("Nothing" .
+   [0 0 0 1 0 0 0])
   ("VertexArrayDescriptor" .
    [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("Triangles" .
@@ -67,7 +67,7 @@
   ("load-path" .
    [0 0 0 0 0 0 0 1 0])
   ("--" .
-   [56 0])
+   [51 0])
   ("customize" .
    [0 0 0 0 0 0 1 0 0])
   ("toggle-truncate-lines" .

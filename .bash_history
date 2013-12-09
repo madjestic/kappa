@@ -591,3 +591,82 @@ cd triangle_02
 ls
 vim Makefile
 vim Makefile
+optirun bash
+cd ~
+cd Projects/Haskell/
+ls
+ls
+ls
+ls -la
+git status
+ls
+ls OpenGL/Tests/glfw_test_01/
+gut status
+git status
+ls
+cd OpenGL/Tests/glfw_test_01/
+ls
+cd Projects/Haskell/OpenGL/Tests/triangle_01/
+ec Main.hs
+emacs
+emacs --daemon
+ec Main.hs
+emacs
+ls
+ls
+cd ..
+ls
+mv test_01_glfw glfw_test_01
+ls
+cd ..
+ls
+git add Tests
+cd ~
+git status
+vim .gitignore_global 
+git rm --cached ./Projects/Haskell/OpenGL/Tests
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+git add Projects/Haskell/OpenGL/Tests
+git status
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+vim .gitignore_global 
+git add Projects/Haskell/OpenGL/Tests
+git status
+vim .gitignore_global 
+git init
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+git add Projects/Haskell/OpenGL/Tests
+git status
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+git init
+git add Projects/Haskell/OpenGL/Tests
+vim .gitignore
+git init
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+git add Projects/Haskell/OpenGL/Tests
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+git add Projects/Haskell/OpenGL/Tests
+git status
+vim .gitignore_global 
+git init
+git rm -r --cached ./Projects/Haskell/OpenGL/Tests
+git add Projects/Haskell/OpenGL/Tests
+git status
+git add -u
+git status
+git add README 
+git commit -am "adding and modifying some project files"
+git push origin
+kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
+optirun bash
+emacs
+cd ~
+ls
+vim .emacs.el 
+cd Projects/Haskell/OpenGL/Tests/glfw_test_01/
+emacs
+emacs
+ec
+cd ~
+ls
+kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
