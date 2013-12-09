@@ -670,3 +670,6 @@ ec
 cd ~
 ls
 kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
+source houdini_setup
+sudo source houdini_setup
+glxgears 
