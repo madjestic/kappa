@@ -24,3 +24,6 @@ isExecutable=false
 
 [MakeBuilder]
 Default Target=triangle
+
+[Project]
+VersionControlSupport=kdevgit

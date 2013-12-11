@@ -20,3 +20,4 @@ export PATH=$PATH:~/.cabal/bin
 export GIT_EDITOR=emacs
 alias ec=emacsclient\ -c
 HISTSIZE=9999
+alias ghci=ghci\ \2\>\&\1\|\HsColour\ \-tty

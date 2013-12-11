@@ -673,3 +673,136 @@ kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
 source houdini_setup
 sudo source houdini_setup
 glxgears 
+kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
+kdevelop! -s "{afe9c3b8-7a17-4069-b162-a9ff8f6aface}"
+cd ~/Projects/CPP/OpenGL/Excercises/
+cd triangle_03
+ls
+ls
+cd triangle_02
+ls
+vim triangle.pro
+history | grep -i qmake
+qmake -o Makefile triangle.pro
+vim Makefile
+make
+vim Makefile
+make
+eix raw
+eix raw | grep -i opengl
+cd Projects/Haskell/OpenGL/Tests/
+ls
+mkdir OpenGL_Tutorial
+ls
+cp -R hello_world ./OpenGL_Tutorial/
+ls OpenGL_Tutorial/
+rm -R ./OpenGL_Tutorial/hello_world
+ls
+mkdir OpenGL_Tutorial/tutorial00
+cp hello_world/* OpenGL_Tutorial/tutorial00/
+mkdir OpenGL_Tutorial/tutorial01
+cp hello_world_with_basic_callbacks/* OpenGL_Tutorial/tutorial01/
+ls OpenGL_Tutorial/tutorial00/
+git add OpenGL_Tutorial
+git status
+git -u add
+git add -u
+history | grep -i git
+cd ~
+git add -u
+git commit -am "adding Haskell OpenGL tutorial files"
+git push origin
+cd Projects/Haskell/OpenGL/Tests/OpenGL_Tutorial/
+git init
+git remote add origin https://github.com/madjestic/Haskell-OpenGL-Tutorial
+ls
+git add ./tutorial0*
+git status
+git rm -r --cached ./tutorial0*
+ls
+git status
+ln --help
+ln -s ~/.gitignore .gitignore
+ls
+ls -la
+ln -s ~/.gitignore_global .gitignore_global
+git add ./tutorial0*
+git status
+git commit -am "adding tutorial 00 and 01 files"
+git push origin
+git pull
+git pull origin
+git pull origin master
+git push origin
+ls
+ls /usr/include/GL/
+cd /opt/hfs13.0.198.21/
+ls
+optirun bash
+source houdini_setup
+su
+emacs
+cd Projects/Haskell/OpenGL/Tests/glfw_test_01/
+ls
+ls
+vim Main.hs
+ls
+cd ..
+ls
+cp -R glfw_test_01 glfw_test_02
+cd glfw_test_02/
+ls
+emacs
+cd ..
+ls
+cd glfw_test_0
+cd glfw_test_03
+ls
+emacs
+cd ..
+git add glfw_test_0*
+git status
+git rm --cached glfw_test_03/#Main.hs# 
+git rm --cached glfw_test_0*
+git rm -r --cached glfw_test_0*
+vim ~/.gitignore
+git add glfw_test_0*
+git status
+git rm -r --cached glfw_test_03/#Main.hs# 
+cd glfw_test_03/
+rm \#Main.hs# 
+cd ..
+ls
+git status
+history | grep -i git | grep -i u
+git add -u
+cd ~
+git add -u
+git status
+git commit -am "adding minimal haskell opengl glfw project and some on the way files"
+git push origin
+glxgears 
+cd Projects/Haskell/OpenGL/Tests/
+emacs
+glxgears 
+ls
+emacs
+ls
+cd hello_world
+emacs
+cd ..
+cd hello_world_triangle/
+emacs
+emacs
+ls
+ghc Main.hs
+ls
+./Main 
+emacs
+emacs
+emacs
+emacs
+emacs
+emacs
+ls
+glxgears 
