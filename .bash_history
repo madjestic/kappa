@@ -806,3 +806,105 @@ emacs
 emacs
 ls
 glxgears 
+ghci
+ghci
+ghci --color
+cabal list hscolor
+cabal list hscolour
+"ghci 2>&1 | HsColour -tty"
+alias ghci=ghci\ 2>&1\ |\ HsColour\ -tty
+
+ghci
+alias ghci=ghci 2>&1 | HsColour -tty
+ghci
+alias ghci=ghci 2>&1 | HsColour -tty
+which ghci
+alias ghci=ghci\ 2>&1
+which ghci
+alias ghci=ghci\ 2>&1|HsColour\ -tty
+HsColour -tty
+alias ghci=ghci\ 2>&1\|\HsColour\ -tty
+ghci
+alias ghci=ghci\ \2\>\&\1\|\HsColour\ \-tty
+ghci
+echo "alias ghci=ghci\ \2\>\&\1\|\HsColour\ \-tty" >> .bashrc
+echo "Hi"
+echo "Hi" && source .bashrc
+cd Projects/Haskell/OpenGL/Tests/
+git add hello_world_triangle
+git status
+ls
+ls -la
+git status
+cd ~
+git status
+vim .gitignore_global 
+vim .gitignore
+git rm -r --cached Projects/Haskell/OpenGL/Tests/hello_world_triangle
+git add Projects/Haskell/OpenGL/Tests/hello_world_triangle
+git status
+git rm --cached Projects/Haskell/OpenGL/Tests/hello_world_triangle/#Main.hs# 
+git commit -am "updating hello world triangle Haskell files, with some CPP file updates"
+git push origin
+git add -u
+git commit -am "forgot to add updated CPP files"
+cd Projects/Haskell/OpenGL/Tests/
+mkdir redbook8
+git clone https://github.com/haskell-opengl/GLUT/tree/master/examples/RedBook8/Chapter01
+ls
+cd redbook8/
+mkdir triangles
+ls
+cd triangles/
+ls
+emacs
+ghci
+su
+cd ~
+cd .emacs.d/
+vim haskell.el
+cd Projects/Haskell/OpenGL/Tests/test_03/Graphics/
+ls
+cd UI/
+ls
+cd GLFW
+ls
+cd ..
+cd ..
+ls
+cd .
+cd ..
+ls
+cd Graphics/UI/
+ls
+mv GLFW-b.hs GLFWb.hs
+ls
+mv GLFWb.hs GLFWB.hs
+ls
+mf GLFW-b.hs~ 
+mv GLFW-b.hs~ 
+rm GLFW-b.hs~ 
+ls
+emacs
+ls
+cd GLFW
+ls
+cd ..
+ghci
+ls
+emacs
+ls
+cd /opt/hfs13.0.198.21/
+sudo
+su
+dmesg 
+su
+cd ~
+optirun bash
+cd /opt/hfs13.0.198.21/
+optirun bash
+cd /mnt/usb/
+ls
+cd ..
+mount /dev/sdb1 /mnt/usb/
+su

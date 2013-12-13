@@ -1,64 +1,78 @@
-import Graphics.Rendering.OpenGL as GL hiding (vertexAttrib)
-import Graphics.Rendering.OpenGL.Raw.Core31 as GLRW
+module Main where
+
+import Graphics.Rendering.OpenGL as GL
 import Graphics.UI.GLFW as GLFW
 import Control.Monad
-import Data.IORef
-import Foreign.Storable
-import Foreign.Marshal.Alloc
-import Foreign.Ptr
+import LoadShaders
 import Foreign.Marshal.Array
-import Foreign.Marshal.Utils
+import Foreign.Ptr
+import System.IO
+import Foreign.Storable
 
 
-data GLIds = GLIds { progId :: !GLuint, vertexArrayId :: !GLuint
-                   , vertexBufferId :: !GLuint, colorBufferId :: !GLuint
-                   , mvpMatrixUniform :: !GLint
-                   , vertexAttrib :: !GLuint, colorAttrib :: !GLuint}
+checkError :: String -> IO ()
+checkError functionName = get errors >>= mapM_ reportError
+  where reportError e =
+          hPutStrLn stderr (showError e ++ " detected in " ++ functionName)
+        showError (Error category message) =
+          "GL error " ++ show category ++ " (" ++ message ++ ")"
+
 
 vertexBufferData :: [GLfloat]
 vertexBufferData =  [ 0.0,  0.8, 
                      -0.8, -0.8, 
                       0.8, -0.8]
 
+
+bufferOffset :: Integral a => a -> Ptr b
+bufferOffset = plusPtr nullPtr . fromIntegral
+
+
+data Descriptor = Descriptor VertexArrayObject ArrayIndex NumArrayIndices
+
+
+initResources :: IO Descriptor
+initResources = do
+  triangles <- genObjectName
+  bindVertexArrayObject $= Just triangles
+
+  let vertices = [
+        Vertex2 (-0.90) (-0.90),  -- Triangle 1
+        Vertex2   0.85  (-0.90),
+        Vertex2 (-0.90)   0.85 ,
+        Vertex2   0.90  (-0.85),  -- Triangle 2
+        Vertex2   0.90    0.90 ,
+        Vertex2 (-0.85)   0.90 ] :: [Vertex2 GLfloat]
+      numVertices = length vertices
+
+  arrayBuffer <- genObjectName
+  bindBuffer ArrayBuffer $= Just arrayBuffer
+  withArray vertices $ \ptr -> do
+    let size = fromIntegral (numVertices * sizeOf (head vertices))
+    bufferData ArrayBuffer $= (size, ptr, StaticDraw)
+
+  program <- loadShaders [
+     ShaderInfo VertexShader (FileSource "triangles.vert"),
+     ShaderInfo FragmentShader (FileSource "triangles.frac")]
+  currentProgram $= Just program
+
+  let firstIndex = 0
+      vPosition = AttribLocation 0
+  vertexAttribPointer vPosition $=
+    (ToFloat, VertexArrayDescriptor 2 Float 0 (bufferOffset firstIndex))
+  vertexAttribArray vPosition $= Enabled
+
+  checkError "initResources"
+  return $ Descriptor triangles firstIndex (fromIntegral numVertices)
+
                     
--- initResources = undefined
-
-
 resizeWindow :: Size -> IO ()
-resizeWindow =
-  \ size@(GL.Size w h) ->
+resizeWindow size@(GL.Size w h) =
     do
       GL.viewport   $= (GL.Position 0 0, size)
       GL.matrixMode $= GL.Projection
       GL.loadIdentity
       GL.ortho2D 0 (realToFrac w) (realToFrac h) 0
-
-
-withNewPtr :: Storable b => (Ptr b -> IO a) -> IO b
-withNewPtr f = alloca (\p -> f p >> peek p)
-
-
-bindBufferToAttrib :: GLuint -> GLuint -> IO ()
-bindBufferToAttrib bufId attribLoc = do
-  GLRW.glEnableVertexAttribArray attribLoc
-  GLRW.glBindBuffer gl_ARRAY_BUFFER bufId
-  GLRW.glVertexAttribPointer attribLoc  -- attribute location in the shader
-                        2  -- 3 components per vertex
-                        gl_FLOAT  -- coordinates type
-                        (fromBool False)  -- normalize?
-                        0  -- stride
-                        nullPtr  -- vertex buffer offset
-
-
-fillNewBuffer :: [GLfloat] -> IO GLuint
-fillNewBuffer list = do
-  bufId <- withNewPtr (GLRW.glGenBuffers 1)
-  GLRW.glBindBuffer gl_ARRAY_BUFFER bufId
-  withArrayLen list $ \length ptr ->
-    glBufferData gl_ARRAY_BUFFER (fromIntegral (length *
-                                  sizeOf (undefined :: GLfloat)))
-                 (ptr :: Ptr GLfloat) gl_STATIC_DRAW
-  return bufId
 
 
 main :: IO ()
@@ -67,35 +81,21 @@ main = do
   GLFW.openWindow (GL.Size 640 480) [] GLFW.Window
   GLFW.windowTitle $= "GLFW Demo"
   GLFW.windowSizeCallback $= resizeWindow
-  bufferPtr <- malloc
-  GLRW.glGenBuffers 1 bufferPtr
-  bufferID <- peek bufferPtr  
-  GLRW.glBindBuffer gl_ARRAY_BUFFER bufferID
-  --withArrayLen vertexBufferData $ \length ptr ->
-   -- GLRW.glBufferData gl_ARRAY_BUFFER (fromIntegral (length *
-   --                               sizeOf (undefined :: GLfloat)))
-   --              (ptr :: Ptr GLfloat) gl_STATIC_DRAW
-  GLRW.glBufferData gl_ARRAY_BUFFER (fromIntegral (length vertexBufferData * sizeOf (undefined :: GLfloat))) ( undefined :: Ptr GLfloat) gl_STATIC_DRAW
-  GLRW.glEnableVertexAttribArray 0
-  GLRW.glVertexAttribPointer 0 2 gl_FLOAT (fromBool False) 0 bufferPtr
-  --vertexBufferId <- fillNewBuffer vertexBufferData
-  --bindBufferToAttrib vertexBufferId (1 :: GLuint)
-  
-  onDisplay
+  descriptor <- initResources
+  onDisplay descriptor
   GLFW.closeWindow
   GLFW.terminate
 
 
-onDisplay :: IO ()
-onDisplay = do
+onDisplay :: Descriptor -> IO ()
+onDisplay descriptor@(Descriptor triangles firstIndex numVertices) = do
   GL.clearColor $= Color4 1 0 0 1
   GL.clear [ColorBuffer]
-  --GLFW.swapBuffers
-  GLRW.glViewport 0 0 640 480
-  GLRW.glDrawArrays gl_TRIANGLES 0 3
+  bindVertexArrayObject $= Just triangles
+  drawArrays Triangles firstIndex numVertices
   GLFW.swapBuffers
+  checkError "display"
 
   p <- GLFW.getKey GLFW.ESC
-  unless (p == GLFW.Press) $ 
-    onDisplay
+  unless (p == GLFW.Press) $ onDisplay descriptor
 
