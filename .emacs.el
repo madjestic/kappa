@@ -155,6 +155,7 @@
 
 (global-set-key (kbd "C-c l") 'linum-mode)
 
+(menu-bar-mode)
 ;;(evil-mode)
 ;;(global-set-key (kbd "C-*") 'evil-search-word-forward)
 ;;(global-set-key (kbd "C-#") 'evil-search-word-backward)
