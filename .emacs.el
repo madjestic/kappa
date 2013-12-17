@@ -132,12 +132,20 @@
   (interactive)
   (load-user-file "haskell-ide.el"))
 
+(defun load-haskell-ide ()
+  "load haskell config files"
+  (interactive)
+  (load-user-file "haskell-ide.el"))
+
 (defun load-cpp-ide ()
   "load haskell config files"
   (interactive)
   (load-user-file "cpp-ide.el"))
 
-(show-paren-mode)
+(defun swap-buffer-mode ()
+  "load haskell config files"
+  (interactive)
+  (load-user-file "buffer-mode.el"))
 
 (defun kill-all-dired-buffers ()
       "Kill all dired buffers."
@@ -151,11 +159,13 @@
               (kill-buffer buffer)))
           (message "Killed %i dired buffer(s)." count))))
 
+(show-paren-mode t)
+(menu-bar-mode -1)
+
 (global-set-key (kbd "C-x C-k") 'kill-all-dired-buffers)
 
 (global-set-key (kbd "C-c l") 'linum-mode)
 
-(menu-bar-mode)
 ;;(evil-mode)
 ;;(global-set-key (kbd "C-*") 'evil-search-word-forward)
 ;;(global-set-key (kbd "C-#") 'evil-search-word-backward)
