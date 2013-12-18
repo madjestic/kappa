@@ -1,6 +1,9 @@
 (package-initialize)
 (add-to-list 'exec-path "~/.cabal/bin")
 
+(show-paren-mode t)
+(menu-bar-mode -1)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -19,6 +22,11 @@
  '(global-auto-complete-mode t)
  '(global-hl-line-mode t)
  '(haskell-indent-offset 4)
+ '(haskell-indentation-ifte-offset 4)
+ '(haskell-indentation-layout-offset 4)
+ '(haskell-indentation-left-offset 4)
+ '(haskell-indentation-where-post-offset 4)
+ '(haskell-indentation-where-pre-offset 4)
  '(haskell-mode-hook (quote ((lambda nil (ghc-init)) (lambda nil (set-input-method "haskell-unicode")) turn-on-haskell-indent turn-on-haskell-doc-mode)))
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
@@ -159,12 +167,11 @@
               (kill-buffer buffer)))
           (message "Killed %i dired buffer(s)." count))))
 
-(show-paren-mode t)
-(menu-bar-mode -1)
-
 (global-set-key (kbd "C-x C-k") 'kill-all-dired-buffers)
 
 (global-set-key (kbd "C-c l") 'linum-mode)
+
+(swap-buffer-mode)
 
 ;;(evil-mode)
 ;;(global-set-key (kbd "C-*") 'evil-search-word-forward)

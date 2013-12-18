@@ -21,17 +21,22 @@
  '(yas/use-menu (quote real-modes))
  '(yas/visit-from-menu nil))
 
-
 (autoload 'ghc-init "ghc" nil t)
 (add-hook 'haskell-mode-hook (lambda () (ghc-init)))
 (global-set-key (kbd "C-c C-k") 'haskell-process-load-file)
 
 (global-set-key (kbd "C-c l") 'linum-mode)
 
-(haskell-indentation-mode)
+(turn-on-haskell-indentation)
 
-;;(iedit-mode)
-;;(minimap-create)
+(global-set-key (kbd "C-;") 'iedit-mode)
 
 (require 'flymake-haskell-multi)
 (add-hook 'haskell-mode-hook 'flymake-haskell-multi-load)
+
+(add-to-list 'load-path "~/.emacs.d/structured-haskell")
+(require 'shm)
+(add-hook 'haskell-mode-hook 'structured-haskell-mode)
+
+(linum-mode t)
+(structured-haskell-mode 1)

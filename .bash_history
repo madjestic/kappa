@@ -508,3 +508,133 @@ emacs
 emacs
 emacs
 optirun bash
+~/.emacs.d/structured-haskell/
+cd ~
+vim .emacs.el 
+ls ./.emacs.d
+cat .emacs.d/buffer-move.el 
+ls
+vim .emacs.d/buffer-move.el 
+emacs --daemon
+ec
+ec .emacs.d/buffer-move.el 
+git add .emacs.d/buffer-move.el
+git add -u
+git status
+git rm .emacs.d/#cpp.el# 
+ls .emacs.d/
+ls la .emacs.d/
+git commit -am "updating configs"
+git push
+ec .emacs.el 
+ec -fs .emacs.el 
+ec -fs
+ec --help
+ec --help | grep -i screen
+ec --help | grep -i "screen"
+emacs -fs .emacs.el 
+ec .emacs.el 
+emacs
+ec .emacs.el 
+emacs
+ec .emacs.el 
+emacs
+ec .emacs.el 
+emacs
+emacs -fs
+emacs -fs
+ec .emacs.el 
+emacs -fs
+ec .emacs.el 
+emacs -fs
+ec .emacs.el 
+emacs -fs
+emacs -fs
+ec .emacs.el 
+emacs -fs
+ec .emacs.el 
+emacs -fs
+vim .test.el
+vim test.el
+ec .emacs.el 
+emacs -fs
+emacs -fs --debug-init
+ec .emacs.el 
+emacs -fs --debug-init
+ec .emacs.el 
+ec test.el 
+emacs -fs --debug-init
+ec test.el 
+ec .emacs.el 
+emacs -fs --debug-init
+ec .emacs.el 
+ec .emacs.el 
+ec .emacs.el 
+emacs -fs --debug-init
+git commit -u
+git status
+git commit -am "updating emacs configs"
+git push
+git push
+git push
+cd Downloads/
+git clone https://github.com/chrisdone/structured-haskell-mode.git
+cd structured-haskell-mode/
+ls
+cabal install
+su
+cabal install
+cabal update
+cabal install cabal-install
+cabal install
+ls
+ls
+ls elisp/
+cd ..
+cd structured-haskell-mode/
+ls
+cp -R elisp ~/.emacs.d/structured-haskell
+cd ~/.emacs.d/structured-haskell/
+ls
+cd ~
+ec .emacs.el 
+emacs -fs
+emacs -fs --debug-init
+ec .emacs.el 
+emacs -fs --debug-init
+ec .emacs.el 
+ec .emacs.el 
+ec .emacs.el 
+ec .emacs.el 
+eix ghc-mod
+cabal install ghc-mod
+cd .emacs.d/
+ec haskell.el
+cd ..
+ec .emacs.d
+ec .emacs.el 
+ec .emacs.d/haskell.el
+ec .emacs.el 
+ec .emacs.d/haskell.el
+eix glfw
+emerge =media-libs/glfw-3.0.3
+emerge -av =media-libs/glfw-3.0.3
+su
+cabal list glfw
+cabal install GLFW
+ls
+cd /etc/portage/
+ls
+vim make.conf
+cd ~/filesystem/etc/portage/
+ls
+ln /etc/portage/make.conf make.conf
+ls
+vim make.conf 
+eix synaptics
+emerge --search synaptics
+eix touch
+eix synaptics
+eix | grep -i synaptics
+eix synaptiks
+su
