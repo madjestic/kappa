@@ -1,13 +1,12 @@
-module Main where
+module HNGL.Rendering where
 
 import Graphics.Rendering.OpenGL as GL
 import Graphics.UI.GLFW as GLFW
 import Control.Monad
-import LoadShaders
+import HNGL.LoadShaders
 import Foreign.Marshal.Array
 import Foreign.Ptr
 import Foreign.Storable
-import HNGL
 
 
 bufferOffset :: Integral a => a -> Ptr b
@@ -54,8 +53,8 @@ resizeWindow size@(GL.Size w h) =
         GL.ortho2D 0 (realToFrac w) (realToFrac h) 0
 
 
-main :: IO ()
-main = do
+rednering :: IO ()
+rednering = do
     GLFW.initialize
     GLFW.openWindow (GL.Size 640 480) [] GLFW.Window
     GLFW.windowTitle $= "GLFW Demo"
@@ -76,4 +75,3 @@ onDisplay descriptor@(Descriptor triangles firstIndex numVertices) = do
 
     p <- GLFW.getKey GLFW.ESC
     unless (p == GLFW.Press) $ onDisplay descriptor
-

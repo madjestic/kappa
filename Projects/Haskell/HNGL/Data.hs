@@ -1,4 +1,4 @@
-module HNGL where
+module HNGL.Data where
 
 import Graphics.Rendering.OpenGL (Vertex2(..))
 

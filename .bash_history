@@ -638,3 +638,267 @@ eix synaptics
 eix | grep -i synaptics
 eix synaptiks
 su
+optirun bash
+ls
+git push
+ls
+cd Projects/Haskell/HNGL/
+ls
+cd ~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/
+ls
+ln ~/Projects/Haskell/HNGL  HNGL
+ln ~/Projects/Haskell/HNGL HNGL
+ln -s ~/Projects/Haskell/HNGL HNGL
+ls
+cd /mnt/usb/
+su
+irssi 
+ghc-pkg list ghc
+ghc-pkg list | grep ghc
+emacs
+emacs
+emacs
+cd ~
+vim .emacs.el 
+cd .emacs.d/
+vim buffer-mode.el 
+cd ~
+git add -u
+git status
+git add .emacs.d/structured-haskell
+git status
+git commit -am "adding emacs structured haskell configs"
+git push
+git push
+locate journal
+locate journal.txt
+ls
+eix gloss
+ls
+emacs --daemon
+ec
+emacs
+cd Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial03
+emacs
+emacs
+emacs -fs
+emacs -fs
+glxgears 
+emacs -f
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+emacs -fs
+cd ..
+cd tutorial02/
+emacs -fs Main.hs 
+emacs -fs Main.hs 
+emacs -fs Main.hs 
+cd ../tutorial03/
+emacs -fs Main.hs 
+emacs -fs Main.hs 
+emacs -fs Main.hs 
+emacs -fs Main.hs 
+emacs -fs Main.hs 
+emacs -fs HNGL.hs
+emacs -fs HNGL.hs
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+ls
+ irclogs/freenode/#haskell-emacs.log 
+emacs --daemon
+ec irclogs/freenode/#haskell-emacs.log 
+ls
+cd Downloads/structured-haskell-mode
+ls
+git status
+git fetch
+ls
+ls elisp/
+cd ~/.emacs.d/
+ls
+ls
+cd structured-haskell
+ls
+cd ..
+ls
+rm -rf structured-haskell
+ls
+ln -s ~/Downloads/structured-haskell-mode structured-haskell
+ls
+emacs
+ls
+cd structured-haskell
+ls
+cd ..
+ls
+rm structured-haskell
+ls
+ln -s ~/Downloads/structured-haskell-mode/elisp structured-haskell
+ls structured-haskell
+emacs
+cd ~/Projects/Haskell/HNGL/
+git init remote https://github.com/madjestic/HNGL
+git init
+git add remote https://github.com/madjestic/HNGL
+git remote add https://github.com/madjestic/HNGL
+git remote https://github.com/madjestic/HNGL
+git remote add -m https://github.com/madjestic/HNGL
+git remote add -mf https://github.com/madjestic/HNGL
+git remote add -mf . https://github.com/madjestic/HNGL
+cd ..
+ls
+mv HNGL HNGL.bak
+ls
+mv HNGL.bak HNGL
+ls
+cd HNGL/
+ls
+git remote add -mf HNGL https://github.com/madjestic/HNGL
+ls
+git -f
+git fetch
+git fetch https://github.com/madjestic/HNGL
+ls
+git add Data.hs Rendering.hs
+git status
+git commit -am "Initial Commit"
+git push
+git remote add --master HNGL https://github.com/madjestic/HNGL
+git remote add -m HNGL https://github.com/madjestic/HNGL
+git remote add HNGL https://github.com/madjestic/HNGL
+git push
+git push master
+git push HNGL
+git pull
+git pull HNGL
+ls
+git add
+git remote
+git remote --help
+git remote --help | grep -i default
+git remote --help
+ec
+emacs
+git remote --help >> .dump
+emacs .dump 
+git remote add -set-head HNGL https://github.com/madjestic/HNGL
+git remote add -m HNGL https://github.com/madjestic/HNGL
+git remote add [-m] HNGL https://github.com/madjestic/HNGL
+git status
+git remote
+git remote -v
+git push
+ls
+cd .git/
+ls
+vim config 
+:q
+cd ~
+cd .git/
+vim config 
+cd ~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/
+ls
+ls -la
+cd .git/
+vim config 
+cd ..
+ls
+cd Projects/Haskell/HNGL/
+ls
+ls -la
+git push
+git config --global push.default simple
+git push
+git add
+git remote add origin https://github.com/madjestic/HNGL
+git push
+git push
+git pull
+ls
+git push
+git status
+ls
+git add Rendering.hs Data.hs
+git push
+cd ~
+ls
+git add -u
+git status
+ec .emacs.el 
+git remote -v
+git push
+ec
+emacs
+emacs -fs
+./test 
+ls
+rm test 
+glxgears 
+./test 
+cd ../tutorial04/
+ghc Main.hs -o test
+ls
+optirun bash
+git push
+cd Projects/Haskell/HNGL/
+ls
+ec LoadShaders.hs 
+ls
+cd ~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/
+ls
+ls HNGL
+ls
+cd HNGL/
+ls
+vim LoadShaders.hs 
+ls
+ls
+cd ..
+ls
+cd ..
+cd tutorial03/
+ls
+ghc Main.hs -o test
+ls
+ls
+optirun test
+optirun bash
+cd ~
+su
+su
+cabal list hakyll
+cabal install hakyll
+emacs
+eix pandoc
+su
+cd ~
+
+eix -I >> .dump
+vim .dump 
+cd ~
+vim .bashrc
+grep "LANG" ./*
+grep "LANG" *
+grep "emerge" *

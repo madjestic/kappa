@@ -1,5 +1,7 @@
 (package-initialize)
 (add-to-list 'exec-path "~/.cabal/bin")
+(add-to-list 'load-path "~/.emacs.d")
+
 
 (show-paren-mode t)
 (menu-bar-mode -1)
@@ -10,11 +12,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ac-dictionary-directories (quote ("~/.emacs.d/ac-dict" "/home/madjestic/.emacs.d/elpa/auto-complete-1.4/dict")))
+ '(ac-dwim t)
  '(ac-expand-on-auto-complete t)
  '(ac-quick-help-prefer-pos-tip t)
  '(ac-show-menu-immediately-on-auto-complete t)
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
+ '(dired-dwim-target t)
+ '(dired-use-ls-dired t)
  '(ecb-layout-name "left2")
  '(ecb-layout-window-sizes (quote (("leftSpeedbarHistory02" (ecb-speedbar-buffer-name 0.16 . 0.6071428571428571) (ecb-history-buffer-name 0.16 . 0.32142857142857145)))))
  '(ecb-options-version "2.40")
@@ -173,6 +178,5 @@
 
 (swap-buffer-mode)
 
-;;(evil-mode)
-;;(global-set-key (kbd "C-*") 'evil-search-word-forward)
-;;(global-set-key (kbd "C-#") 'evil-search-word-backward)
+(require 'move-text)
+(move-text-default-bindings)
