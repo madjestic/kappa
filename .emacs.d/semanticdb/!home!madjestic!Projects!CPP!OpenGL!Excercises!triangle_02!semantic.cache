@@ -1,0 +1,102 @@
+;; Object triangle_02/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "triangle_02/"
+  :tables (list 
+   (semanticdb-table "triangle.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("Qt/qapplication.h" include (:system-flag t) nil [1 29])
+            ("QtOpenGL/QGLWidget" include (:system-flag t) nil [30 59])
+            ("meglwindow.h" include (:system-flag t) nil [60 83])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [94 103])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [104 117]))                  
+                :type "int")
+                nil [85 225]))          
+    :file "triangle.cpp"
+    :pointmax 225
+    :fsize 219
+    :lastmodtime '(21154 27921 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("LDLIBS" variable (:default-value ("-lglut" "-lGLEW" "-lGL")) nil [1 27])
+            ("all" function (:arguments ("triangle")) nil [27 41])
+            ("clean" function nil nil [41 68])
+            ("triangle" function (:arguments ("common/shader_utils.o")) nil [68 100]))          
+    :file "Makefile"
+    :pointmax 118
+    :fsize 8621
+    :lastmodtime '(21155 48231 290761 125000)
+    :unmatched-syntax '((symbol 112 . 117) (symbol 108 . 111) (punctuation 106 . 107) (symbol 100 . 106) (bol 100 . 100))
+    )
+   (semanticdb-table "meglwindow.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("GLEW_STATIC" variable (:constant-flag t) nil [9 20])
+            ("GL/glew.h" include (:system-flag t) nil [21 41])
+            ("GL/gl.h" include (:system-flag t) nil [42 60])
+            ("meglwindow.h" include (:system-flag t) nil [61 84])
+            ("initializeGL" function
+               (:parent "MeGlWindow"
+                :type "void")
+                nil [86 484])
+            ("paintGL" function
+               (:parent "MeGlWindow"
+                :type "void")
+                nil [487 617]))          
+    :file "meglwindow.cpp"
+    :pointmax 618
+    :fsize 626
+    :lastmodtime '(21155 51504 305551 64000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("GLEW_STATIC")
+          )
+
+    )
+   (semanticdb-table "meglwindow.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("MEGLWINDOW_H" variable (:constant-flag t) nil [30 42])
+            ("QtOpenGL/QGLWidget" include (:system-flag t) nil [44 73])
+            ("MeGlWindow" type
+               (:superclasses 
+                  ( ("QGLWidget" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [113 123])
+                    ("initializeGL" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [128 148])
+                    ("paintGL" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [153 168]))                  
+                :type "class")
+                nil [75 171]))          
+    :file "meglwindow.h"
+    :pointmax 196
+    :fsize 195
+    :lastmodtime '(21154 31084 814478 445000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("MEGLWINDOW_H")
+          )
+
+    )
+   )
+  :file "!home!madjestic!Projects!CPP!OpenGL!Excercises!triangle_02!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
