@@ -1,5 +1,5 @@
-((("export" .
-   [1 0 0 0 0 0])
+((("linum-mode" .
+   [0 0 0 0 0 1 0 0 0 0])
   ("Drawable" .
    [1 0 0 0 0 0 0 0])
   ("Editable" .
@@ -43,7 +43,7 @@
   ("putS" .
    [9 0 0 2])
   ("iedit-mode" .
-   [0 0 0 1 0 0 0 0 0 0])
+   [0 0 0 2 0 0 0 0 0 0])
   ("haskell-indentation-mode" .
    [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("load-cpp" .

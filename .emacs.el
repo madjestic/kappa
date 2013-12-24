@@ -2,8 +2,6 @@
 (add-to-list 'exec-path "~/.cabal/bin")
 (add-to-list 'load-path "~/.emacs.d")
 
-
-(show-paren-mode t)
 (menu-bar-mode -1)
 
 (custom-set-variables
@@ -100,17 +98,19 @@
     '("melpa" . 
       "http://melpa.milkbox.net/packages/") t)
 
-(set-default 'truncate-lines t)
+(add-hook 'html-mode-hook
+          (lambda()
+            (setq sgml-basic-offset 4)
+            (setq indent-tabs-mode t)))
 
-(require 'auto-complete)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-(require 'auto-complete-config)
-(ac-config-default)
-
-(require 'smooth-scroll)
-(smooth-scroll-mode t)
-
-(powerline-default-theme)
+(add-hook 'web-mode-hook
+          (lambda()
+	    (linum-mode)
+	    (iedit-mode)
+	    (setq web-mode-markup-indent-offset 4)
+	    (setq web-mode-css-indent-offset 4)
+	    (setq web-mode-code-indent-offset 4)
+	    (setq web-mode-indent-style 4)))
 
 (defconst user-init-dir
   (cond ((boundp 'user-emacs-directory)
@@ -160,6 +160,11 @@
   (interactive)
   (load-user-file "buffer-mode.el"))
 
+(defun web-mode ()
+  "load haskell config files"
+  (interactive)
+  (load-user-file "web-mode.el"))
+
 (defun kill-all-dired-buffers ()
       "Kill all dired buffers."
       (interactive)
@@ -173,10 +178,23 @@
           (message "Killed %i dired buffer(s)." count))))
 
 (global-set-key (kbd "C-x C-k") 'kill-all-dired-buffers)
-
 (global-set-key (kbd "C-c l") 'linum-mode)
 
-(swap-buffer-mode)
+(require 'smooth-scroll)
+(smooth-scroll-mode t)
 
+(require 'dired-sort-menu)
 (require 'move-text)
 (move-text-default-bindings)
+
+(require 'auto-complete)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(require 'auto-complete-config)
+(ac-config-default)
+
+(swap-buffer-mode)
+(show-paren-mode t)
+(set-default 'truncate-lines t)
+(powerline-default-theme)
+
+

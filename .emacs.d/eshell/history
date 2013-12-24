@@ -1,4 +1,3 @@
-Linking triangle_02 ...
 ghc triangle_02.hs -o triangle_02
 make
 make
@@ -126,3 +125,4 @@ ln ~/Projects/Haskell/HNGL/LoadShaders.hs LoadShaders.hs
 ls
 ls
 ls -lah
+./site preview

@@ -902,3 +902,449 @@ vim .bashrc
 grep "LANG" ./*
 grep "LANG" *
 grep "emerge" *
+cd ~
+vim /etc/portage/make.conf
+locale -a
+vim .bashrc
+ec .bashrc
+ec .emacs.el 
+emacs
+emacs --debug-init
+vim .emacs.el 
+ec .emacs.el 
+emacs --debug-init
+emacs .bashrc
+git add -u
+git status
+git add filesystem
+git status
+git remote -v
+git push
+git commit -am "pushing configs"
+git push
+git add .emacs.el 
+git add .emacs.d
+git status
+git commit -am "more emacs files"
+git push
+git rm .emacs.d/*~
+git rm .emacs.d/*.*~
+git rm .emacs.d/*.el~
+git rm --cached .emacs.d/*.el~
+git rm --cached .emacs.d/c*.el~
+git rm --cached .emacs.d/e*.el~
+git rm --cached .emacs.d/h*.el~
+git rm --cached .emacs.d/m*.el~
+git rm --cached .emacs.d/session*
+ec .gitignore
+rm -rf .emacs.d/*.el~
+rm .emacs.d/session.10cc617070000138220987600000030490107 
+git rm --cached .emacs.d
+git rm -r --cached .emacs.d
+git commit -am "cleaning up emacs repo"
+git push
+git status
+git add .emacs.d
+git status
+git commit -am "new emacs configs"
+git push
+cd .emacs.d/
+ls -lah
+cd ~
+ls
+cd Projects/
+ls
+cd ..
+ls
+cd Downloads/
+ls -lah
+ls --help
+ls -lahs
+ls -slah
+ls -s
+ls -lah --size
+ls -s
+ls -sh
+ls --help
+ls -lahS
+cd ~
+ec .bashrc
+source .bashrc
+echo $LANG
+emacs
+emacs -fs
+emacs -fs &
+cd ~
+cd /etc/init.d/
+ls
+mv net.lo .net.lo 
+sudo mv net.lo .net.lo 
+ls
+ls -lah
+cd ~
+cd Downloads/
+ls
+ls -lahS
+rm node-v0.10.24.tar.gz 
+ls -lahS
+rm -rf ./wordpress*
+ls -lahS
+rm -rf Jekyll-HMFAYSAL-Theme-master*
+ls -lahS
+git clone https://github.com/madjestic/bootstrap
+ls
+cd Bootstrap/
+ls
+cd ..
+ls
+rm -rf Bootstrap
+cd bootstrap
+ls
+cd ..
+ls
+cd blog/
+ls
+cd github/
+ls
+cd css/
+ls
+vim default.css 
+cd ..
+ls
+vim site.hs 
+emacs -fs site.hs
+LS
+LS
+ls
+emacs -fs site.hs
+emacs -fs site.hs
+emacs -fs site.hs
+cd templates/
+ls
+emacs -fs default.html
+emacs -fs default.html &
+ls
+cd ..
+ls
+ghc --make site.hs
+./site rebuild
+./site preview
+ls
+emacs ~/.emacs.el 
+cd templates/
+ls
+emacs -fs default.html
+emacs -fs default.html
+emacs -fs default.html &
+ls
+cd ..
+ls
+./site rebuild
+./site preview
+ls
+cd stylesheets
+ls
+cd ..
+ls
+cd stylesheets/
+ls
+emacs --help
+emacs
+emacs -fs
+cd ..
+l
+ls
+./site preview
+./site preview
+ls
+cd ..
+hakyll-init default
+ls
+cd default/
+ls
+cd ~/.emacs.d/
+ls
+cd elpa/
+ls
+cd web-mode-20131219.1425/
+ls
+ls
+cd ..
+ls
+cd web-mode-20131219.1425
+ls
+ln ~/Projects/web-mode/web-mode.el web-mode.el
+rm web-mode.el
+ln ~/Projects/web-mode/web-mode.el web-mode.el
+ls
+cd ~
+emacs .emacs.el 
+emacs -fs .emacs.el 
+emacs -fs .bashrc
+cd ~
+grep -r "iedit" ./*
+grep -r "use" ./*
+grep -r "package.use" ./*
+ls
+grep -r "package.use" ./* >> dev/null
+grep -r "package.use" ./* >> /dev/null 
+cd Downloads/
+ls
+cd ..
+cd Downloads/
+ls
+emacs
+emacs -fs &
+emacs -fs &
+emacs --debug-init
+cd ~
+emacs .emacs.el 
+emacs .emacs.el 
+git commit -u
+git status
+ ls
+cd Projects/
+git clone https://github.com/madjestic/web-mode
+ls
+emacs -fs
+ls
+cd web-mode/
+emacs -fs web-mode.el 
+cd filesystem/etc/portage/
+ls
+cd ~/Projects/
+ls
+rm -rf NodeBox
+ls
+rm -rf darc_test
+ls
+cd GTK+/
+ls
+cd ..
+ls
+rm -rf GTK+
+ls
+cd ..
+ls
+ls
+locate blog
+find ~/ blog
+find ~/ | grep -i blog
+ls
+cd Projects/
+ks
+ls
+mkdir Web
+ls
+cd Web
+ls
+cd ..
+ls
+rm Web
+rm -rf Web
+ls
+mkdir blog
+ls
+cd blog
+ls
+cd ..
+cd blog/
+hakyll-init github
+ls
+cd github/
+ls
+ghc --make site.hs 
+ls
+./site preview
+./site preview
+site clean
+ls
+./site clean
+./site preview
+eix pandoc
+su
+ls
+LANG=en_US.utf8 ./site build
+./site clean
+LANG=en_US.utf8 ./site build
+./site preview
+./site preview
+ls
+echo $LANG
+source ~/.bashrc
+echo $LANG
+./site build
+ls
+cd _site
+ls
+git init
+ls
+git add ./*
+git status
+git commit -am "Initial import"
+git remote add origin https://github.com/madjestic/madjestic.github.io
+git push -u origin master
+git push -u origin master
+cd ..
+ls
+cd ..
+mkdir site
+ls
+cd site/
+ls
+git clone https://github.com/username/madjestic.github.io
+git clone https://github.com/madjestic/madjestic.github.io
+ls
+cd ..
+ls
+rm -rf site
+ls
+cd ..
+ls
+git clone https://github.com/madjestic/madjestic.github.io
+ls
+cd madjestic.github.io/
+ls
+git checkout master
+cd ..
+git checkout master
+cd madjestic.github.io/
+ls
+ls
+cd ..
+ls
+mkdir blogs
+ls
+cd blogs/
+ls
+mkdir turtles
+ls
+mkdir puurbliss.nl
+ls
+cd turtles/
+ls
+emacs
+emacs --daemon
+ps -aux
+ps -aux | grep -i emacs
+kill 2869
+emacs --daemon
+ec -fs
+ec --help
+emacs
+emacs -fs
+ls
+emacs -fs index.html &
+ks
+ls
+git init
+git remote add -m https://github.com/madjestic/madjestic.github.io
+git remote -m add https://github.com/madjestic/madjestic.github.io
+git remote add https://github.com/madjestic/madjestic.github.io
+git remote add -mf https://github.com/madjestic/madjestic.github.io
+git remote add -m master https://github.com/madjestic/madjestic.github.io
+git remote add -m origin https://github.com/madjestic/madjestic.github.io
+git remote add master https://github.com/madjestic/madjestic.github.io
+ls
+git fetch
+git remote add master https://github.com/madjestic/madjestic.github.io
+fit fetch
+git fetch
+git fetch master
+ls
+vim index.html 
+ls
+git add ./*
+git status
+git push 
+git push master
+emacs
+emacs -fs &
+git push
+git remote add origin https://github.com/madjestic/madjestic.github.io
+ls
+git push origin
+git status
+git commit -am "messing with bootstrap"
+git push
+git pull
+ls
+rm index.html 
+ls
+emacs -fs
+ls
+git rm -rf ./*
+ls
+emacs -fs &
+ls
+git add ./*
+git status
+git commit -am "syncing"
+git push
+emacs -fs &
+emacs -fs &
+cd ~
+cd .emacs.d/
+grep -r "C-;" ./*
+cd elpa/web-mode-20131219.1425/
+ls
+emacs -fs wfs-mode.el
+rm web-mode.elc
+ls
+cd ~
+emacs -fs .emacs.el 
+cd Projects/web-mode/
+ls
+git commut -u
+git commit -u
+git commit -am "C-; clashes with iedit-mode, removed it, as M-; does the same"
+git push
+git push
+cd .emacs.d/
+ls
+cd elpa/
+ls
+vim package.el 
+emacs package.el 
+emacs -fs package.el 
+emacs -fs package.el 
+ls
+cd ..
+ls
+ls
+ln ~/Projects/web-mode/web-mode.el web-mode.el
+cd ~
+emacs .emacs.el 
+emacs -fs .emacs.el 
+emacs -fs
+cd ~
+emacs .emacs.el
+emacs -fs .emacs.el
+cd Projects/blogs/turtles/
+ls
+emacs -fs index.html
+emacs -fs
+emacs -fs index.html
+emacs -fs index.html
+emacs -fs index.html
+emacs -fs index.html &
+ls
+git status
+git remote -v
+git add ./*
+git status
+git commit -u
+git add -u
+git status
+git push
+git commit -am "testing bootstrap themes"
+git push
+ls
+ls
+emacs -fs index.html &
+emacs -fs index.html &
+cd ~
+emacs -fs .emacs.el 
+emacs -fs .emacs.el 
+cd ~
+emacs -fs .emacs.el 

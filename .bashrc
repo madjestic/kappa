@@ -18,7 +18,7 @@ fi
 # Put your fun stuff here.
 export PATH=$PATH:~/.cabal/bin
 export GIT_EDITOR=emacs
-export LANG=en_US.utf8
+# export LANG=en_US.utf8 -- required by hakyll, causes bash issues
 alias ec=emacsclient\ -c
 HISTSIZE=9999
 alias ghci=ghci\ \2\>\&\1\|\HsColour\ \-tty
