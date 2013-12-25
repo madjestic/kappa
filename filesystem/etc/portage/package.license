@@ -1,2 +1,1 @@
-# required by adobe-flash (argument)
-=www-plugins/adobe-flash-11.2.202.310 AdobeFlash-11.x
+>=www-plugins/adobe-flash-11.2.202.332 AdobeFlash-11.x

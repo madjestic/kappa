@@ -8,31 +8,5 @@
 =dev-haskell/cabal-1.18.0 ~amd64
 # required by cabal-install (argument)
 =dev-haskell/cabal-install-1.18.0.1 ~amd64
-# required by dev-python/numpydoc (argument)
-=dev-python/numpydoc-0.4-r1 ~amd64
-# required by dev-python/g-pypi-0.3
-# required by dev-python/g-pypi (argument)
-=dev-python/yolk-0.4.3-r1 ~amd64
-# required by dev-python/g-pypi-0.3
-# required by dev-python/g-pypi (argument)
-=dev-python/sphinxcontrib-googleanalytics-0.1 ~amd64
-# required by dev-python/g-pypi (argument)
-=dev-python/g-pypi-0.3 ~amd64
-# required by dev-python/yolk-0.4.3-r1
-# required by dev-python/g-pypi-0.3
-# required by dev-python/g-pypi (argument)
-=dev-python/yolk-portage-0.1-r1 ~amd64
-# required by =dev-python/ipython-1.1.0 (argument)
-=dev-python/ipython-1.1.0 ~amd64
-# required by dev-python/ipython-1.1.0
-# required by =dev-python/ipython-1.1.0 (argument)
-=dev-python/simplegeneric-0.8.1-r1 ~amd64
-# required by dev-python/ipython-1.1.0[qt4,-notebook,smp]
-# required by =dev-python/ipython-1.1.0 (argument)
-=dev-python/pyzmq-13.1.0 ~amd64
-# required by dev-python/ipython-1.1.0
-# required by =dev-python/ipython-1.1.0 (argument)
-=dev-python/decorator-3.4.0-r1 ~amd64
-# required by dev-python/ipython-1.1.0
-# required by =dev-python/ipython-1.1.0 (argument)
-=dev-python/pexpect-3.0 ~amd64
+# required by =media-libs/glfw-3.0.3 (argument)
+=media-libs/glfw-3.0.3 ~amd64

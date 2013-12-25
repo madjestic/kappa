@@ -1588,3 +1588,30 @@ ls
 cd turtles/
 ls
 emacs -fs index.html &
+cp --help
+su
+git add Projects
+git status
+git reset HEAD *
+git -status
+git status
+git add Projects/blogs
+git status
+eix kdebindings-meta
+eix kde-l10n
+eix kdebindings-meta
+eix kdesdk-meta
+eix kdewebdev-meta
+cat /var/lib/layman/make.conf 
+ls /var/lib/layman/steam/
+cd /var/lib/layman/steam/
+ls
+grep -r "steam-meta" ./
+cd games-util/
+ls
+cd steam-meta/
+ls
+su
+emacs  /usr/share/portage/config/make.conf.example
+eix dhcp
+eix perl

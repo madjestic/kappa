@@ -1,0 +1,6 @@
+/etc/conf.d/hwclock 1399ed4362ea87e9c8eb063bcbfa3c42
+/etc/conf.d/hostname f2cc3a97745e4c52c96648421794903e
+/etc/locale.gen 9bfbcfea3e186c70fe5501512d367de2
+/etc/NetworkManager/NetworkManager.conf f42fc9290831793d90363f8059408231
+/etc/cupshelpers/preferreddrivers.xml 0b19e50addd76f454133ab2039f5f1c8
+/etc/init.d/net.lo be4d4227cd5c7647493edae9131f1798
