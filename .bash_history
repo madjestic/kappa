@@ -1615,3 +1615,128 @@ su
 emacs  /usr/share/portage/config/make.conf.example
 eix dhcp
 eix perl
+eix steam
+layman -L
+layman -L | grep -i steam
+layman -a steam
+layman -l
+eix steam
+emerge -av steam-meta
+emerge -pav steam-meta
+emerge --search steam-meta
+layman -l
+emerge --search steam
+layman -S
+layman -S
+git add -u
+git status
+git commit -am "updating emacs configs, before I kill the system again"
+git push
+git push
+git add Downloads/*.pdf
+git status
+git reset HEAD *
+git status
+emerge --help
+uname -a
+emacs .gitignore
+ls -la
+dmesg 
+su
+su
+cd filesystem/
+ls
+mkdir -p var/lib/portage
+cd var/lib/portage/
+ls
+ln /var/lib/portage/world world
+ln /var/lib/portage/config config
+ls
+cat /boot/grub/grub.conf
+eix grub
+eix arp
+cd ~
+git add -u
+git add filesystem
+cd filesystem/var/lib/portage/
+ls
+cd ~
+cd filesystem/
+ls -lah
+cd var/
+ls -lah
+cd lib/
+ls -lah
+cd portage/
+ls -lah
+sudo chown madjetic config
+sudo chown madjestic config
+sudo chown madjestic world 
+ls -lah
+cd ~
+git add filesystem
+git status
+git add -u
+git status
+cd filesystem/etc/portage/make.conf 
+cd filesystem/etc/portage
+emacs make.conf 
+rm make.conf && ln /etc/portage/make.conf make.conf 
+ls
+emacs make.conf 
+ls -lah
+rm package.accept_keywords & ln /etc/portage/package.accept_keywords package.accept_keywords
+ls
+ls -lah
+rm package.accept_keywords.bak 
+ls
+ls -lah
+ls /etc/portage/
+ls -lah /etc/portage/
+cd /etc/portage/
+ls
+cd ~/filesystem/etc/portage/
+ls
+ls -lah
+rm package.license & ln /etc/portage/package.license package.license
+ls -lah
+rm package.use & ln /etc/portage/package.use package.use
+ls -lah
+rm package.use.bak 
+ls
+cd ..
+l
+ls
+cd X11/
+ls -lah
+cd ~
+git add -u
+git status
+git commit -am "updating configs"
+git push
+cd /usr/src/linux
+ls
+emacs .config
+lsusb 
+cd ~
+emacs journal.org
+emacs -fs journal.org
+emacs journal.org
+emacs journal.org
+mv .emacs.el .emacs.el.bak
+emacs journal.org
+emacs journal.org
+mv .emacs.el.bak .emacs.el
+emacs journal.org
+emacs journal.org
+emacs -U journal.org
+emacs -U journal.org
+emacs -Q journal.org
+eix org-mode
+lspci
+irssi 
+irssi 
+emacs
+optirun bash
+emacs /etc/portage/make.conf
+su

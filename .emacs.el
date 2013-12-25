@@ -212,3 +212,6 @@
 (global-set-key (kbd "C-c C-S-c") 'org-capture)
 (global-set-key (kbd "C-c C-S-a") 'org-agenda)
 (global-set-key (kbd "C-c C-S-b") 'org-iswitchb)
+
+(setq org-todo-keywords
+  '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
