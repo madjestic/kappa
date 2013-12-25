@@ -127,7 +127,6 @@
          user-init-directory)
         (t "~/.emacs.d/")))
 
-
 (defun load-user-file (file)
   (interactive "f")
   "Load a file in current user's configuration directory"
@@ -205,4 +204,11 @@
 (set-default 'truncate-lines t)
 (powerline-default-theme)
 
+;;;;;;;;;;;;;;
+;; Org-mode ;;
+;;;;;;;;;;;;;;
 
+(global-set-key (kbd "C-c C-S-l") 'org-store-link)
+(global-set-key (kbd "C-c C-S-c") 'org-capture)
+(global-set-key (kbd "C-c C-S-a") 'org-agenda)
+(global-set-key (kbd "C-c C-S-b") 'org-iswitchb)

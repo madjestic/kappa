@@ -1560,3 +1560,31 @@ cd ~
 cd filesystem/etc/
 ls
 su
+cd /etc/portage/
+emacs --daemon
+ec make.conf
+cd ~
+git add -u
+fit status
+git status
+git add filesystem
+git status
+git commit -am "updating configs"
+git push
+emacs -fs
+emacs -fs
+emacs .emacs.el
+emacs -fs .emacs.el
+emacs -fs
+emacs -fs .emacs.el
+emacs -fs
+emacs -fs .emacs.el
+emacs -fs
+rm *~
+emacs -fs journal.org 
+emacs -fs journal.org 
+cd Projects/blogs
+ls
+cd turtles/
+ls
+emacs -fs index.html &
