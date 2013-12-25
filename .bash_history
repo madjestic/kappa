@@ -1348,3 +1348,215 @@ emacs -fs .emacs.el
 emacs -fs .emacs.el 
 cd ~
 emacs -fs .emacs.el 
+cd .emacs.d
+ls
+ln -s ~/Projects/structured-haskell-mode/elisp structured-haskell 
+rm structured-haskell && ln -s ~/Projects/structured-haskell-mode/elisp structured-haskell 
+ls -lah
+cd !
+cd ~
+git commit -u
+git add -u
+git status
+git commit -am "updatgin emacs configs:  forked and removed web-mode.el original dependecy, coz french are dicks"
+git push
+emacs -fs
+cd Projects/
+ls
+cp -R structured-haskell-mode structured-haskell-mode.bak
+ls
+cd structured-haskell-mode
+git pull
+git pull
+mkdir TODO
+ls
+cd TODO/
+ln -s ../journal journal
+ls
+ln -s ~/Projects/Bookmarks/Haskell/TODO TODO
+ls
+cd TODO/
+ls
+cabal list haddock
+cd ~/Projects/Haskell/HNGL/
+ls
+rm \#Rendering.hs# 
+ls
+haddock Rendering.hs
+ls
+cd ..
+cd OpenGL/Haskell-OpenGL-Tutorial/tutorial01
+ls
+haddock Main.hs 
+vim Main.hs 
+ghc Main.hs -o foo
+ls
+./foo 
+ls
+rm foo
+ls
+haddock Main.hs
+cabal haddock -v
+cabal haddock -v
+cabal haddock
+cabal list haddock
+eix haddock
+su
+cabal install haddock
+cabal haddock -v
+cabal haddock
+haddock Main.hs
+~/.cabal/bin/haddock Main.hs
+cabal ~/.cabal/bin/haddock -v
+ghc-pkg list haddock
+ghc-pkg --help
+ghc-pkg unregister haddock
+eix haddock
+emerge -av haddock
+emerge -av haddock
+su
+optirun bash
+cd Projects/blogs/turtles/
+emacs -fs index.html &
+emacs -fs index.html &
+emacs -fs index.html &
+emacs -fs index.html &
+emacs -fs index.html &
+emacs -fs index.html &
+ls
+ls
+rm \#index.html# 
+ls
+mkdir .dump
+ls -lah
+cp ~/.gitignore ./
+ls
+emacs .gitignore 
+ls
+cd .dump/
+ls
+pandoc
+ls
+ls -la
+pandoc
+ls
+ls
+emacs test1.md
+emacs -fs test1.md
+emacs -fs test1.md
+emacs -fs test1.md
+emacs -fs test1.md
+emacs -fs test1.md
+cd /etc/X11/
+ls
+mkdir xorg.conf.d
+sudo mkdir xorg.conf.d
+ls
+cd xorg.conf.d/
+touch 50-touchpad.conf
+sudo touch 50-touchpad.conf
+ls
+emacs 50-touchpad.conf 
+sudo emacs 50-touchpad.conf 
+ls
+sudo emacs 50-touchpad.conf 
+su
+emacs
+cd Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/
+ls
+emacs -fs Main.hs
+emacs -fs Main.hs
+ls
+cd HNGL/
+ls -lah
+ls -la
+rm LoadShaders.hs 
+ln ~/Projects/Haskell/HNGL/LoadShaders.hs LoadShaders.hs
+cat LoadShaders.hs 
+cd ..
+ls
+emacs -fs Main.hs
+ls
+glxgears 
+emacs -fs Main.hs
+emacs -fs Main.hs
+ls
+rm \#Main.hs# 
+ls
+vim Main.hs
+ls
+ls -lah
+emacs Main.hs
+emacs -fs Main.hs
+ls
+mv HNGL HNGL.bak
+ls
+ln -s ~/Projects/Haskell/HNGL HNGL
+ls -lah
+emacs -fs Main.hs
+ls
+cd HNGL
+ls
+cd ..
+rm HNGL
+ls
+mv HNGL.bak HNGL
+ls
+cd HNGL/
+ls
+cd ..
+ls
+cd HNGL/
+ls
+haddock Rendering.hs
+emacs Data.hs
+haddock -v Rendering.hs
+ls
+cd ..
+ls
+haddock Main.hs
+ls
+ls
+cd HNGL/
+ls
+cd ..
+ls
+cd Shaders/
+ls
+cd ..
+ls
+cd HNGL/
+ls
+ec LoadShaders.hs
+emacs -fs LoadShaders.hs
+ls
+su
+ls
+cp 50-touchpad.conf 50-touchpad.conf.bak
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+source /etc/profile
+emacs 50-touchpad.conf
+emacs 50-touchpad.conf
+ls
+cd ..
+ls
+emacs index.html
+emacs
+optirun bash
+irssi 
+su
+emacs
+glxinfo 
+cd ~
+cd irclogs/freenode/#haskell-emacs.log 
+emacs irclogs/freenode/#haskell-emacs.log 
+cd ~
+cd filesystem/etc/
+ls
+su

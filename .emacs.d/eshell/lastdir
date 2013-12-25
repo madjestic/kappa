@@ -1,9 +1,3 @@
-/usr/share/binutils-data/i686-pc-linux-gnu/2.22/info
-/home/madjestic/Projects/Haskell/Entropy/src
-/home/madjestic/Projects/Haskell/OpenGL/GLUT
-~/.emacs.d
-/home/madjestic
-/su:root@localhost:/home/madjestic
 /home/madjestic/Projects/CPP/OpenGL/Excercises/hello-gl
 /home/madjestic/Projects/Haskell/OpenGL/hello-gl
 ~/Downloads
@@ -31,3 +25,9 @@
 ~/Projects/Haskell/HNGL
 ~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/HNGL
 ~/Projects/blog/github
+/home/madjestic/filesystem/etc
+/home/madjestic/filesystem/etc/X11/Sessions
+/home/madjestic/filesystem/etc/X11
+/home/madjestic/filesystem/etc/X11/xorg.conf.d
+/home/madjestic/filesystem/etc/X11
+/home/madjestic/filesystem/etc/X11/xorg.conf.d

@@ -1,37 +1,3 @@
-ghc triangle_02.hs -o triangle_02
-make
-make
-make
-make triangle_02.hs
-make
-make foo
-make triangle_02.hs
-make Makefile 
-make -f Makefile 
-make -f Makefile triangle_02.hs
-cp Makefile MakefileAlt
-ls
-make
-optirun triangle
-optirun ./triangle
-make -f MakefileAlt
-optirun ./triangle_02
-make -f MakefileAlt
-optirun ./triangle_02
-cp ../triangle_02/Main.hs ./triangle_02.hs
-make -f MakefileAlt
-optirun ./triangle_02
-make -f MakefileAlt
-optirun ./triangle_02
-make -f MakefileAlt
-optirun ./triangle_02.hi
-optirun ./triangle_02
-make -f MakefileAlt
-optirun ./triangle_02
-cp triangle_02.hs ../triangle_02/Main.hs
-cp Makefile ../triangle_02/
-cd ../triangle_02/
-ls
 ls
 rm triangle
 ghc Main.hs -o triangle_02
@@ -126,3 +92,37 @@ ls
 ls
 ls -lah
 ./site preview
+ls
+mkdir X11
+ls
+cd X11/
+ls
+cd Sessions/
+ls
+rm KDE-4 && ln /etc/X11/Sessions/KDE-4 KDE-4 
+ls
+ln /etc/X11/Sessions/KDE-4 KDE-4 
+ls
+rm Xsession & ln /etc/X11/Sessions/Xsession Xsession 
+ls
+ls -lah
+cd ..
+ls
+ls
+ln /etc/X11/chooser.sh chooser.sh
+ls
+ln /etc/X11/startDM.sh startDM.sh
+ls
+ls
+ln /etc/X11/xorg.conf xorg.conf
+mkdir xorg.conf.d
+ls
+cd xorg.conf.d/
+ln /etc/X11/xorg.conf.d/50-touchpad.conf 50-touchpad.conf
+cd ..
+ls
+ln /etc/X11/xorg.nvidia.conf xorg.nvidia.conf
+ls
+ls
+cat 50-touchpad.conf 
+cat 50-touchpad.conf 
