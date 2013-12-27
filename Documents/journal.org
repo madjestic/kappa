@@ -83,6 +83,9 @@ next thing to do is introducing support for basic shapes instances draw, e.g.:
 draw Square pos side
 ... too tired now, need to switch tasks for a 
 
+[[file:~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/HNGL][Finished Here]]
+<2013-12-27 Fri>
+
 ** on Emacs
 
 *** DONE Lear to use Org-mode

@@ -1957,3 +1957,107 @@ emacs journal.org
 emacs journal.org
 glxgears 
 emacs /usr/src/linux/.config
+su
+cd ~
+locate fez
+find ./ | grep -i fez
+cd .local/share/
+ls
+cd FEZ/
+ls
+cd ..
+ls
+cd applications/
+ls -lah
+cd ~
+ls
+locate screen
+find ./ | grep -i screen
+find ./ | grep -i screen
+eix ksnap
+su
+eix video
+eix camera
+cd ~
+su
+cd ~
+cd filesystem/usr/src/linux/
+ls
+ls -la
+hl /usr/src/linux/.config .config
+ls
+ls -la
+su
+sudo hl /usr/src/linux/.config .config
+sudo /home/madjestic/bin/hl /usr/src/linux/.config .config
+ls -lah
+rm .config
+ls
+ls -lah
+hl /usr/src/linux/.config .config
+ls
+ls -lah
+cd /boot/
+ls
+ls -lah
+cp gentoo-3.10.17-kernel gentoo-3.10.17-kernel.bak
+sudo cp gentoo-3.10.17-kernel gentoo-3.10.17-kernel.bak
+ls -lah
+ls
+cd /usr/src/linux
+emacs .config
+su
+optirun bash
+irssi
+git add filesystem
+git add -u
+git add ./Documents/journal.org
+git status
+git push
+git push
+git commit -am "updating configs"
+git push
+cd Documents/
+ls
+mkdir HTML_CSS
+ls
+cd HTML_CSS/
+hl ~/Downloads/HTML_CSS/HTML_and_CSS.pdf  HTML_CSS.pdf
+ls
+okular HTML_CSS.pdf &
+okular 
+okular HTML_CSS.pdf &
+steam &
+cd /usr/src/linux
+ls
+cp .config .config.bak 
+su
+glxgears 
+glxgears 
+emacs &
+steam 
+steam 
+fez
+steam 
+FEZ
+fez
+cd ~
+ls
+locate fez
+cd ./.local/share/applications/
+ls
+glxgears 
+./FEZ.desktop 
+emacs FEZ.desktop 
+cd ~
+find ./ | grep -i fez
+emacs Desktop/FEZ.desktop 
+emacs .local/share/FEZ/Debug\ Log.txt 
+emacs .config/FEZ/Settings 
+cd .config/
+ls
+cd ../.local/share/Steam/SteamApps/common/FEZ/
+ls
+./FEZ
+steam &
+./FEZ
