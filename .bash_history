@@ -1740,3 +1740,220 @@ emacs
 optirun bash
 emacs /etc/portage/make.conf
 su
+su
+grep -r "/usr/bin/lynx" ./
+kfmclient --help
+kfmclient www.google.com
+kfmclient http://www.google.com
+kfmclient URL www.google.com
+kfmclient --commands
+kfmclient openURL www.google.com
+cd ~
+alsamixer 
+eix kmix
+cd ~
+ls
+rm foo
+/usr/bin/ln --help
+/usr/bin/ln
+which ln
+chromium-browser 
+su
+grep -r "usr/bin/lynx" /*
+cd /etc/mailcap 
+emacs /etc/mailcap 
+cd /etc/
+ls
+cp mailcap mailcap.bak
+su
+cd ~/Downloads/
+ls
+str="Abbelian Categories.pdf" 
+echo ${str// /_}
+cd ~/Projects/
+ls
+mkdir Bash
+ls
+cd Bash/
+ls
+touch foo
+ls
+emacs foo
+ls
+chmod foo.sh +x
+chmod +xfoo.sh
+chmod +x foo.sh
+ls
+./foo.sh foobar
+./foo.sh "foobar"
+emacs foo.sh 
+./foo.sh "foobar"
+./foo.sh foobar
+emacs foo.sh 
+emacs foo.sh &
+cd ~
+mkdir bin
+cd bin/
+ls
+touch hl
+ls
+chmod +x hl
+ls
+emacs hl &
+emacs hl
+ls
+ks
+ls
+rm hl
+ls
+chmod +x hl.sh
+ls
+emacs hl.sh &
+emacs hl.sh &
+ls
+ls
+cd ~/Projects/Bash/
+ls
+emacs foo.sh
+cd ~/bin/
+ls
+emacs hl.sh
+emacs hl.sh
+emacs --help
+awk --help
+man awk
+str="foo bar"
+echo ${str// /_}
+cd ../Downloads/
+ls
+despace Abbelian\ Categories.pdf 
+str="Abbelian Categories.pdf" 
+echo ${str// /_}
+despace Abbelian\ Categories.pdf 
+despace "Abbelian Categories.pdf"
+despace "Abbelian Categories.pdf"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+despace "Abbelian Categories"
+ls
+despace Abbelian\ Categories.pdf 
+ls
+cd ~
+su
+which okular
+cd /etc/
+ls
+emacs mailcap
+su
+which okular
+which okular
+optirun bash
+irssi 
+cd ../Downloads/
+touch foobar
+ls
+cd ../Documents/
+okular ~/Downloads/ThePrinciplesofBeautifulWebDesign2ndEditionSecond.pdf &
+okular ~/Downloads/HTML And CSS - Design And Build Websites V413HAV/HTML And CSS - Design And Build Websites V413HAV.pdf
+cd ../Downloads/
+ls
+okular ~/Downloads/HTML_CSS/HTML_and_CSS.pdf &
+cd ~
+dmesg 
+su
+emacs journal.org
+git add -u
+git status
+git commit -am "updating configs"
+git push
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs -Q journal.org
+emacs .emacs.el
+emacs journal.org
+emacs journal.org
+emacs -Q journal.org
+emacs .emacs.el
+emacs journal.org
+emacs -fs
+emacs journal.org
+emacs -fs journal.org
+emacs journal.org
+emacs --debug-init
+emacs -fs
+emacs -fs
+emacs -fs journal.org
+emacs journal.html
+emacs journal.org
+emacs journal.org
+emacs .emacs.el
+emacs journal.org
+emacs .emacs.el
+emacs journal.org
+rm journal.org~
+emacs journal.org
+emacs .emacs.el
+alias /usr/bin/lynx\ -force_html=chromium
+alias "/usr/bin/lynx\ -force_html"=chromium
+vim .bashrc
+vim .bashrc
+chromium -force_html journal.html
+emacs journal.org
+emacs .bashrc
+source .bashrc
+lynx 
+emacs journal.org
+alis /usr/bin/lynx=chromium
+alias /usr/bin/lynx=chromium
+sudo touch /usr/bin/lynx
+su
+lynx
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+ls
+rm #*
+rm -rf #*
+ls
+rm -rf #.*
+ls
+rm ./#.*
+ls
+rm #*
+rm ./#*
+ls
+cd Documents/
+ls
+mv ../journal.* ./
+ls
+rm ./*~
+ls
+emacs journal.org 
+emacs journal.org 
+emacs journal.org 
+emacs journal.org 
+emacs journal.org 
+emacs journal.org 
+emacs /etc/mailcap
+sudo emacs /etc/mailcap
+sudo emacs /etc/mailcap
+su
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs journal.org
+emacs journal.org
+glxgears 
+emacs /usr/src/linux/.config

@@ -14,10 +14,13 @@
  '(ac-expand-on-auto-complete t)
  '(ac-quick-help-prefer-pos-tip t)
  '(ac-show-menu-immediately-on-auto-complete t)
+ '(browse-url-generic-program "chromium-browser" t)
+ '(browse-url-text-browser "chromium")
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
  '(dired-dwim-target t)
  '(dired-use-ls-dired t)
+ '(doc-view-resolution 1000)
  '(ecb-layout-name "left2")
  '(ecb-layout-window-sizes (quote (("leftSpeedbarHistory02" (ecb-speedbar-buffer-name 0.16 . 0.6071428571428571) (ecb-history-buffer-name 0.16 . 0.32142857142857145)))))
  '(ecb-options-version "2.40")
@@ -36,7 +39,9 @@
  '(minimap-dedicated-window t)
  '(minimap-width-fraction 0.1)
  '(minimap-window-location (quote right))
- '(package-archives (quote (("marmalade" . "http://marmalade-repo.org/packages/") ("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/"))))
+ '(org-agenda-files (quote ("~/journal.org")))
+ '(org-file-apps (quote ((auto-mode . emacs) ("\\.mm\\'" . default) ("\\.x?html?\\'" . default) ("\\.pdf\\'" . "/usr/bin/okular"))))
+ '(package-archives (quote (("marmalade" . "http://marmalade-repo.org/packages/") ("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/"))))
  '(powerline-default-separator (quote arrow))
  '(powerline-height nil)
  '(powerline-text-scale-factor nil)
@@ -49,6 +54,7 @@
  '(speedbar-frame-parameters (quote ((minibuffer) (width . 10) (border-width . 0) (menu-bar-lines . 0) (tool-bar-lines . 0) (unsplittable . t) (left-fringe . 0))))
  '(speedbar-hide-button-brackets-flag t)
  '(speedbar-use-images nil)
+ '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 48 56 64 72 80 88 96 104 112 120)))
  '(tabbar-mode t nil (tabbar))
  '(tabbar-use-images nil)
  '(tool-bar-mode nil)
@@ -68,7 +74,9 @@
  '(cursor ((t (:background "#707080"))))
  '(ecb-default-general-face ((t (:height 0.9))))
  '(fringe ((t (:background "#1d2733"))))
+ '(highlight ((t (:background "chocolate"))))
  '(hl-line ((t (:inherit highlight :background "#454857"))))
+ '(iedit-occurrence ((t (:inherit highlight))))
  '(linum ((t (:inherit (shadow default) :background "#454857" :foreground "#9999aa"))))
  '(menu ((t (:background "#222244" :foreground "#797985" :inverse-video t))))
  '(minimap-active-region-background ((t (:background "#454857"))))
@@ -89,7 +97,7 @@
  '(tabbar-button-highlight ((t (:inherit tabbar-default))))
  '(tabbar-default ((t (:inherit variable-pitch :background "gray50" :foreground "grey75"))))
  '(tabbar-highlight ((t (:inherit nil :background "#2d3743"))))
- '(tabbar-selected ((t (:inherit tabbar-default :weight bold))))
+ '(tabbar-selected ((t (:inherit tabbar-default :underline t :weight bold))))
  '(tabbar-unselected ((t (:inherit tabbar-default))))
  '(tooltip ((t (:inherit variable-pitch :background "#797985" :foreground "black" :height 0.8))))
  '(vertical-border ((t nil)))
@@ -185,7 +193,9 @@
           (message "Killed %i dired buffer(s)." count))))
 
 (global-set-key (kbd "C-x C-k") 'kill-all-dired-buffers)
-(global-set-key (kbd "C-c l") 'linum-mode)
+(global-set-key (kbd "C-c L") 'linum-mode)
+(global-set-key (kbd "M-+") 'text-scale-increase)
+(global-set-key (kbd "M-_") 'text-scale-decrease)
 
 (require 'smooth-scroll)
 (smooth-scroll-mode t)
@@ -215,3 +225,9 @@
 
 (setq org-todo-keywords
   '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
+
+(global-set-key (kbd "C-c a") 'org-agenda)
+
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "chromium-browser")
+(setq browse-url-default-browser "chromium")

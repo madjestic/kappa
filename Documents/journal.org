@@ -1,0 +1,103 @@
+#+TAGS: { @OFFICE(o) @HOME(h) } COMPUTER(c) PHONE(p) READING(r)
+
+* How to use Journal?
+
+** Basics
+
+M-return to start a new entry
+
+M-right/M-left to change the depthe of insertion
+
+** New Deep Entry
+
+** TODOs
+
+S-right/S-left to change the status
+
+C-c . to insert timestamp
+
+*** TODO buy *airplane* <2013-12-27 Fri>				:foo:
+** List and markup
+  + one
+  + two
+*bold*
+/italic/
+=code=
+
+** Links
+   C-c C-L to store the link
+   C-c C-l to inser the link
+   C-c C-l on existin link to edit
+   [[http://orgmode.org/manual/Handling-links.html][on_Links]]
+   [[http://orgmode.org/manual/External-links.html][gentoo]]
+   [[docview:~/Downloads/Abbelian_Categories.pdf::100][PDF]]
+
+* New Task Example
+
+** Create a Designe
+
+*** Design Ideas:
+
+[[http://wordpress.org/themes/][Cool_Ideas]]
+
+* Projects
+
+** HNGL
+
+*** on HNGL
+
+>> Fri Dec 20 11:07:18 CET 2013
+>> Fri Dec 20 16:58:16 CET 2013
+>> Journal #3 (#1 and #2 got lost -_-)
+
+Editable -> Instancable -> Drawabale
+
+
+Graphics.HNGL.Rendering
+Graphics.HNGL.Data
+
+
+
+toInstancable :: Editable -> Instancable
+
+toDrawable :: Instancable -> Drawable
+
+draw :: Drawable -> IO ()
+
+toAnimatable :: Drawable -> Animation -> Animatable
+
+data Animation = Time Freq
+
+data Time = Float
+
+data Freq = Float
+
+animate :: Animatable -> IO ()
+*** HNGL progress
+>> Sun Dec 22 20:31:19 CET 2013
+>> on HNGL:
+
+managed to do inital HNGL commit with basic modules functioning OK
+next thing to do is introducing support for basic shapes instances draw, e.g.:
+
+draw Square pos side
+... too tired now, need to switch tasks for a 
+
+** on Emacs
+
+*** DONE Lear to use Org-mode
+
+*** TODO Lear how to open pdfs at a given page with Okulus
+[[http://stackoverflow.com/questions/20792659/how-do-i-make-org-mode-open-pdf-files-in-okulus-at-page-nnn][stackoverflow_topi]]c
+<2013-12-27 Fri>
+
+** on Blogs
+
+*** on HTML/CSS
+[[file:~/Downloads/ThePrinciplesofBeautifulWebDesign2ndEditionSecond.pdf][The_Principles_of_Beautifule_Web_Design]]
+[[file:~/Downloads/HTML_CSS/HTML_and_CSS.pdf][HTML_and_CSS]]
+
+*** on Bootstrap
+ 
+*** on Puurbliss.nl
+

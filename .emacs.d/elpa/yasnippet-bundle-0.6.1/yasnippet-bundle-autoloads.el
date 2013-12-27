@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (yas/minor-mode yas/root-directory) "yasnippet-bundle"
-;;;;;;  "yasnippet-bundle.el" (20963 16619 0 0))
+;;;;;;  "yasnippet-bundle.el" (21179 19609 932939 972000))
 ;;; Generated autoloads from yasnippet-bundle.el
 
 (defvar yas/root-directory nil "\
@@ -38,8 +38,8 @@ Key bindings:
 
 ;;;***
 
-;;;### (autoloads nil nil ("yasnippet-bundle-pkg.el") (20963 16620
-;;;;;;  55344 458000))
+;;;### (autoloads nil nil ("yasnippet-bundle-pkg.el") (21179 19611
+;;;;;;  650117 486000))
 
 ;;;***
 

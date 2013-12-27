@@ -1,128 +1,128 @@
 ls
-rm triangle
-ghc Main.hs -o triangle_02
-optirun ./triangle_02
-cp Main.hs Main.hs.bak
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-make
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-optirun ./triangle_02
-make
-make
-optirun ./triangle_02
+ls -la
+rm .dump 
+ls -la
+./hl.sh ~/.dump .dump
+./hl.sh ~/.dump .dump
+./hl.sh ~/.dump .dump
+./hl.sh ~/.dump .dump
+./hl.sh ~/.dump .dump
+./hl.sh ~/.dump .dump
 ls
-mv Main.hs.bak.orig ./junk/
-cp Main.hs ./junk/Main.hs.work
-ghci
-ghci
+cp hl.sh hl
+ls
+rm hl
+ls
+ln -s ./hl.sh hl
+ls
+cp hl.sh hl.sh.bak
+ls
+./hl.sh ./hl.sh foo
+ls
+rm foo
+ls
+./hl ~/.dump .dump 
+ls
+r, .dump 
+rm .dump 
 ls
 cd ..
+cd bin/
+hl
+cd ~
+hl
+cd bin/
 ls
-cd ..
+cp hide hide.sh
+rm ./*.bak
 ls
-cd Diagrams/
+chmod +x hide.sh 
 ls
-ghc --make DiagramsTutorial.hs 
+vim mnt 
 ls
-./DiagramsTutorial -o circle.svg
-chromiumm circle.svg 
-ghc --make DiagramsTutorial.hs 
-./DiagramsTutorial -o circle.svg -w 400
+ln -s ./hide hide
+ln -s ./hide.sh hide
 ls
-ghc --make foo.lhs
-HasStyle a,
-ghc --make foo.lhs
-./foo -o foo.svg -w 400
-ls
-cp Main.hs Main.hs.bak
-etags Main.hs
-ls
-vim #TAGS#
-ls
-mdir Rendering
-mkdir Rendering
-mkdir Data
+rm hide
 ls
 ls
-rm Rendering
-rm -rf Rendering
+ln -s ./hide.sh hide
 ls
-rm -rf Data
+touch foobar
 ls
+hide foobar 
+hide foobar 
 ls
+ls -la
 ls
-Data  Rendering
-Data  Rendering
+hide foobar 
 ls
+hide foobar 
 ls
-git add -u
-git status
-git add Projects/Haskell/HNGL
-git status
-git commit -am "adding HNGL files"
-git push
-Username for 'https://github.com': Password for 'https://github.com': madjestic
+ls -la
+hide -u .foobar 
+hide -u .foobar 
+hide -u foobar 
 ls
+head "foobar"
+head --help
+tail "foo"
+tail -f "foo"
 ls
-ln
-ln ~/Projects/Haskell/HNGL HNGL
+hide foobar 
 ls
-ls
-ln ~/Projects/Haskell/HNGL HNGL
-git remote --help
-ls
-ln ~/Projects/Haskell/HNGL/LoadShaders.hs LoadShaders.hs
-ls
-ls
-ls -lah
-./site preview
-ls
-mkdir X11
-ls
-cd X11/
-ls
-cd Sessions/
-ls
-rm KDE-4 && ln /etc/X11/Sessions/KDE-4 KDE-4 
-ls
-ln /etc/X11/Sessions/KDE-4 KDE-4 
-ls
-rm Xsession & ln /etc/X11/Sessions/Xsession Xsession 
-ls
-ls -lah
-cd ..
+hide -u foobar 
+hide -u .foobar 
 ls
 ls
-ln /etc/X11/chooser.sh chooser.sh
+chmod +x despace.sh
 ls
-ln /etc/X11/startDM.sh startDM.sh
+ln -s ./despace.sh despace
+ls
+cd ~/Documents/
+ls
+rm ./*~
+ls
+rm #*
+rm ./#*
+ls
+rm ./#*#
+rm ./#journal.org\# 
+ls
+touch #foo.bar#
+ls
+touch #foo.bar#
+cd xorg.conf.d/ls
+ls
+cd ../Downloads/
+ls
+despace Abbelian\ Categories.pdf 
 ls
 ls
-ln /etc/X11/xorg.conf xorg.conf
-mkdir xorg.conf.d
+despace Abbelian\ Categories.pdf 
 ls
-cd xorg.conf.d/
-ln /etc/X11/xorg.conf.d/50-touchpad.conf 50-touchpad.conf
-cd ..
+despace "Abbelian Categories.pdf"
 ls
-ln /etc/X11/xorg.nvidia.conf xorg.nvidia.conf
+despace "Abbelian Categories.pdf"
+despace
+despace Abbelian\ Categories.pdf 
+despace "Abbelian Categories.pdf"
+despace
+despace Abbelian\ Categories.pdf 
 ls
+despace "Abbelian Categories.pdf"
+despace
+despace Abbelian\ Categories.pdf 
 ls
-cat 50-touchpad.conf 
-cat 50-touchpad.conf 
+despace "foo bar"
+despace "foo\ bar"
+akademy2006.pdf                                         
+str="foo bar"
+despace Abbelian\ Categories.pdf 
+hl
+hl ../Downloads/foobar foobar
+hl ../Downloads/foobar foobar
+ln --help
+ln ../Downloads/foobar foobar
+hl ../Downloads/foobar foobar
+ln ../Downloads/foobar foobar
