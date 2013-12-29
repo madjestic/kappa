@@ -2061,3 +2061,209 @@ ls
 ./FEZ
 steam &
 ./FEZ
+cd ~
+cd filesystem/usr/src/linux/
+ls -la
+sudo hl /usr/src/linux/.config .config
+su
+ls
+ls -la
+sudo hl /usr/src/linux/.config .config
+sudo /home/madjestic/bin/hl /usr/src/linux/.config .config
+ls -lah
+cd ~
+ls -lah /boot/
+cd filesystem/
+ls
+mkdir boot
+cd boot/
+ls /boot/
+ls /boot/grub/
+mkdir grub
+su
+ls
+sudo /home/madjestic/boo
+ls -lah
+cd grub/
+sudo rm .config
+ls -lah
+cd ..
+ls
+ls -lah
+sudo rm .config 
+ls -lah
+ls
+cp /boot/gentoo-3.10.17-kernel ./
+ls
+sudo /home/madjestic/bin/hl /boot/gentoo-3.10.17-kernel ./gentoo-3.10.17-kernel 
+cp /boot/gentoo-3.10.17-kernel ./
+ls -lah
+cd grub/
+cp /boot/grub/grub.conf ./
+ls
+su
+ls
+cd ..
+ls
+cd ~
+git add filesystem
+git add -u
+git status
+git commit -am "more configs"
+git push
+okular HTML_CSS.pdf
+okular HTML_CSS.pdf
+okular HTML_CSS.pdf
+su
+eix kleopatra
+cd ~
+su
+eix calligra
+cd ..
+emacs journal.org
+cd ..
+mkdir org
+cd Documents/
+ls
+mv journal.org ../org/
+ls
+rm -r journal.*
+ls
+cd ..
+ls
+cd org/
+ls
+mkdir css
+mkdir public_html
+ls
+mkdir img
+ls
+mv journal.org index.org
+ls
+touch memeber.org
+ls
+cd css/
+ls
+touch stylesheet.css
+ls
+cd ..
+ls
+equery d kwallet
+equery l kdeutils-meta
+equery 
+equery g kdeutils-meta
+irssi 
+history | grep -i LANG
+steam &
+eix filelight
+ls
+cd org/
+cd ..
+emacs 
+cd org/
+ls
+emacs index.org 
+cd ~
+cd org/
+ls
+emacs index.org 
+cd ~
+eix hakyll
+cabal list hakyll
+cabal install hakyll
+cabal install --force-reinstalls hakyll
+cd Projects/blogs/default/
+ls
+./site clean
+./site preview
+cd 
+history 
+hakyll-init test01
+ls
+cd test01/
+ls
+ghc --make site.hs 
+ls
+./site build
+ls
+emacs about.rst 
+ls
+LANG=en_US.utf8 ./site build
+./site clean
+LANG=en_US.utf8 ./site build
+./site preview
+ls
+cd ..
+ls
+pwd
+cd Projects/blogs
+ls
+cd default/
+ls
+LANG=en_US.utf8 ./site 
+LANG=en_US.utf8 ./site build
+emacs index.md 
+LANG=en_US.utf8 ./site build
+LANG=en_US.utf8 ./site preview
+emacs index.md &
+ls
+cd ..
+ls
+hakyll-init test01
+ls
+cd test01/
+ghc --make site.hs 
+LANG=en_US.utf8 ./site build
+./site preview
+cd ../default/
+ls
+LANG=en_US.utf8 ./site build
+./site preview
+ls
+vim index.md
+cd ../turtles/
+ls
+cd ..
+ls
+cd default/
+./site clean
+LANG=en_US.utf8 ./site build
+./site preview
+emacs index.md
+ls
+LANG=en_US.utf8 ./site build
+./site preview
+./site clean
+LANG=en_US.utf8 ./site build
+./site preview
+emacs site.sh
+emacs site.hs
+emacs site.hs &
+emacs site.hs &
+emacs site.hs &
+ghc --make site.sh
+ghc --make site.hs
+LANG=en_US.utf8 ./site build
+./site preview
+./site clean
+LANG=en_US.utf8 ./site build
+./site clean
+LANG=en_US.utf8 ./site build
+./site preview
+touch build.sh
+emacs build.sh 
+emacs build.sh &
+ls
+chmod +x build.sh
+ln -s build.sh build
+ls
+./build
+./build
+ls
+cd css/
+ls
+cp default.css default.css.bak
+cd ..
+grep -r "default.css" ./
+grep -r "default.css" ./
+emacs templates/default.html &

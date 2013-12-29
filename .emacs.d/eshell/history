@@ -1,18 +1,3 @@
-ls
-ls -la
-rm .dump 
-ls -la
-./hl.sh ~/.dump .dump
-./hl.sh ~/.dump .dump
-./hl.sh ~/.dump .dump
-./hl.sh ~/.dump .dump
-./hl.sh ~/.dump .dump
-./hl.sh ~/.dump .dump
-ls
-cp hl.sh hl
-ls
-rm hl
-ls
 ln -s ./hl.sh hl
 ls
 cp hl.sh hl.sh.bak
@@ -126,3 +111,18 @@ ln --help
 ln ../Downloads/foobar foobar
 hl ../Downloads/foobar foobar
 ln ../Downloads/foobar foobar
+hakyll-init default
+ls
+Creating default/templates/post.html
+ls
+cd default/
+ls
+ls
+ghc --make site.hs 
+ls
+ghc --make site.hs 
+./site preview
+ls
+./site preview
+ls
+./build

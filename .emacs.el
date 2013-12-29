@@ -36,6 +36,7 @@
  '(haskell-mode-hook (quote ((lambda nil (ghc-init)) (lambda nil (set-input-method "haskell-unicode")) turn-on-haskell-indent turn-on-haskell-doc-mode)))
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
+ '(inhibit-startup-screen t)
  '(minimap-dedicated-window t)
  '(minimap-width-fraction 0.1)
  '(minimap-window-location (quote right))
@@ -53,8 +54,9 @@
  '(speedbar-directory-button-trim-method (quote trim))
  '(speedbar-frame-parameters (quote ((minibuffer) (width . 10) (border-width . 0) (menu-bar-lines . 0) (tool-bar-lines . 0) (unsplittable . t) (left-fringe . 0))))
  '(speedbar-hide-button-brackets-flag t)
+ '(speedbar-show-unknown-files t)
  '(speedbar-use-images nil)
- '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 48 56 64 72 80 88 96 104 112 120)))
+ '(tab-stop-list (quote (2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 36 38 40 44 48 52 56 64 72 80 88 96 104 112 120)))
  '(tabbar-mode t nil (tabbar))
  '(tabbar-use-images nil)
  '(tool-bar-mode nil)
@@ -180,6 +182,11 @@
   (interactive)
   (load-user-file "web-mode.el"))
 
+(defun blog-mode ()
+  "load haskell config files"
+  (interactive)
+  (load-user-file "blog.el"))
+
 (defun kill-all-dired-buffers ()
       "Kill all dired buffers."
       (interactive)
@@ -231,3 +238,6 @@
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "chromium-browser")
 (setq browse-url-default-browser "chromium")
+
+;;(require 'semantic)
+;;(require 'ecb)
