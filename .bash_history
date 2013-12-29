@@ -2267,3 +2267,247 @@ cd ..
 grep -r "default.css" ./
 grep -r "default.css" ./
 emacs templates/default.html &
+emacs -fs
+glxgears 
+su
+ghc -V
+ls
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+emacs build.sh
+./build
+./build
+./build
+ls
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+vim build.sh
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+grep -ri "home" ./
+./build
+grep -ri "home" ./
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+emacs &
+emacs &
+emacs &
+ls
+emacs &
+ls
+emacs &
+emacs -fs
+emacs -fs &
+ls
+cd site
+cd _site
+ls
+ls -la
+git add ./about.html 
+git add ./archive.html 
+git add ./contact.html 
+git add ./css
+git add -A ./css
+ls
+git add -A ./images
+git add index.html 
+git add -A ./posts/
+git status
+git commit -am "adding blog files"
+git push
+cd ../..
+cd turtles/
+ls
+git rm -r ./*
+rm \#index.html# 
+git rm -r ./*
+git rm -rf ./*
+ls
+git commit -am "wiping stuff"
+git push 
+git push 
+git push git pull
+git init
+ls
+ls
+ls -la
+ls
+ls -la
+git pull
+ls
+ls -la
+git remote -V
+git remote -v
+git fetch
+ls
+ls -la
+git pull
+git add -u
+git commit -am "wiping stuff"
+git push
+ls
+cd ..
+cd default/
+ls
+git status
+git remote -v
+ls
+ls -la
+cd _site/
+ls
+git status
+git pull
+ls
+ls -la
+cd ..
+ls
+./build
+ls
+cd _site/
+ls
+git add ./*
+git status
+git remote -v
+ls
+git remote -v
+git add ./*
+git status
+emacs .gitignore 
+git commit -am "adding blog wip files"
+git push
+cd ..
+cd ..
+ls
+rm -rf turtles
+ls
+mv default turtles
+ls
+cd turtles/
+ls
+cd ..
+ls
+cd turtles/
+emacs &
+ls
+build
+./build
+./build
+./build
+ls
+cd posts/
+ls
+cd ..
+ls
+cd _site/
+ls
+cd posts/
+ls
+emacs
+ls
+emacs &
+cd ..
+ls
+cd ../templates/
+ls
+cp post.html.new
+cp post.html post.html.new
+cd ..
+ls
+./build
+ls
+./build
+ls
+cd ~
+emacs .emacs.el
+emacs .emacs.el
+emacs
+emacs
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs
+emacs .emacs.el
+emacs
+emacs
+emacs -fs
+git add Projects/blogs/default
+git add -u
+git status
+git commit -am "blog wip files"
+git push
+emacs .gitignore
+git push
+git rm Projects/blogs/default/_cache
+git rm -r Projects/blogs/default/_cache
+git commit -am "removing cached"
+git push
+git push
+cd Projects/blogs/test01/
+ls
+cp ../turtles/build ./
+ls
+./build 
+cd ..
+cd ..
+ls
+cd bootstrap/
+git fetch
+ls
+cd examples/offcanvas/
+ls
+cd ..
+cd ../..
+cd blogs/turtles/
+ls
+cd _site/
+grep -ir "width" ./
+grep -ir "width:1000" ./
+cd ~
+su

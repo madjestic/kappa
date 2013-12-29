@@ -9,3 +9,4 @@ Projects/darc_test
 #*#
 *.bak
 _cache
+.git*
