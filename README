@@ -94,3 +94,8 @@ C-h f iedit-mode <RET>
 #umount /mnt/backup
 #echo
 qmake -o Makefile triangle.pro
+
+* Haskell
+** tags generation
+*** hothasktags
+find . | egrep '\.hs$' | xargs hothasktags > tags

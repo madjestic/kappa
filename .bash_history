@@ -2511,3 +2511,835 @@ grep -ir "width" ./
 grep -ir "width:1000" ./
 cd ~
 su
+cd ../turtles/
+ls
+emacs templates/post.html &
+ls
+./build
+vim templates/post.html
+ls
+./build
+vim _site/posts/2012-08-12-spqr.html 
+./site preview
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+vim _site/css/bootstrap.css 
+emacs _site/css/bootstrap.css 
+./site preview
+./build
+emacs _site/css/bootstrap.css 
+emacs _site/css/bootstrap.css &
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./site preview
+./build
+./build
+./build
+./build
+./build
+ls -la
+cd _site/
+ls
+cd ..
+cd ~
+emacs .gitignore
+vim .gitignore
+git status
+git add Projects/blogs/turtles
+git status
+git add Projects/blogs/turtles
+git commit -am "updating blog files"
+git push
+git add -A Projects/blogs/turtles
+git status
+git add Projects/blogs/turtles/*
+vim .gitignore
+git add Projects/blogs/turtles/site.hs
+cd Projects
+ls -lah
+cd blogs/turtles/
+ls -lah
+git remote
+git add index.html
+git remote -V
+git remote -v
+cd _site/
+git remote -v
+ls
+ls -lah
+git init
+git remote add
+history | grep -i remote
+git remote add master https://github.com/madjestic/madjestic.github.io
+git remote add origin https://github.com/madjestic/madjestic.github.io
+emacs ~/.git/config
+git fetch
+cd ..
+./build
+cd _site/
+ls -lah
+git add -u
+git remote -v
+cd ..
+ls
+ls -lah
+cd _site/
+ls -lah
+git init
+ls -lah
+git remote add origin https://github.com/madjestic/madjestic.github.io
+ls -lah
+emacs .git/config 
+ls -lah
+git remote -v
+git fetch
+ls -lah
+cd ..
+ls
+./build
+cd _site/
+ls
+ls -lah
+cd ..
+cd ..
+ls
+mkdir madjestic.github.io
+ls
+rm madjestic.github.io
+rm -rf madjestic.github.io
+git clone https://github.com/madjestic/madjestic.github.io
+ls
+cd madjestic.github.io/
+ls
+git rm -rf about.html archive.html contact.html css images index.html posts
+ls -lah
+cp -R ../turtles/_site/* ./
+ls -lah
+cp ~/.gitignore ./
+ls -lah
+vim .gitignore 
+git add ./*
+git status
+git commit -am "pushing blog update"
+git push
+cd ../turtles/
+ls
+ls -lah
+cd _site/
+ls
+ls -lah
+cd ~
+git add Projects/blogs/turtles
+git status
+git add Projects/blogs/turtles/index.html
+cd Projects/blogs
+ls -lah
+cd turtles/
+ls -lah
+cd ~
+git add Projects/blogs/test01
+git status
+git rm -rf --cached Projects/blogs/test01
+cd Projects/blogs
+cp turtles turtlesturtlesturtles
+cp -R turtles turtlesturtlesturtles
+ls -lah
+cd ~
+git add Projects/blogs/turtlesturtlesturtles
+git status
+git commit -am "bookeeping"
+git push
+git rm -rf Projects/blogs/turtles
+rm -rf Projects/blogs/turtles
+git rm -rf Projects/blogs/turtles
+git commit -am "deleting old blog location"
+git push
+cd Projects/blogs/turtlesturtlesturtles/
+emacs templates/default.html &
+ls
+./build
+./build
+cp -R _site/* ../madjestic.github.io/
+cd ../madjestic.github.io/
+ls
+git add -u
+git status
+git commit -am "updating css"
+git push
+ls
+cd ../turtlesturtlesturtles/
+./build
+ls
+cd _site/
+ls
+cd posts/
+ls
+cd ..
+cd ..
+./build
+ls -lah
+cd posts/
+ls
+ls -lah
+cd ..
+ls
+cd _site/
+ls -lah
+cd posts/
+ls -lah
+cd ../..
+./build
+vim ./build.sh
+vim ./build.sh
+ghc --make site.hs
+ghc --make site.hs
+./build
+ls
+ls -lah
+rm .#site.hs 
+ls -lah
+cd _site/
+ls
+emacs atom.xml 
+cd ..
+ls
+cd posts/
+ls
+cp 2013-13-13-index.md 2013-12-30-post-post-modern-opengl-in-haskell-1.md
+emacs 2012-08-12-spqr.markdown 
+emacs 2013-12-30-post-post-modern-opengl-in-haskell-1.md 
+emacs 2013-12-30-post-post-modern-opengl-in-haskell-1.md &
+cd ..
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./site preview
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+ls
+cd posts/
+ls -la
+git remote -v
+emacs &
+cd ..
+./build
+ls
+cp -R _site/* ../madjestic.github.io/
+cd ../madjestic.github.io/
+ls
+git rm -rf ./posts/
+ls
+cd posts/
+ls
+cd ..
+git add posts
+git status
+git add -u
+git commit -am "updating blog"
+git push
+ls
+ls css
+git add css
+git status
+git commit -am "adding syntax highlighting"
+fit push
+git push
+cd ../turtlesturtlesturtles/
+ls
+emacs templates/default.html
+emacs templates/default.html
+emacs templates/default.html &
+./build
+cp -R _site/* ../madjestic.github.io/
+cd ../madjestic.github.io/
+git add-u
+git add -u
+git status
+git commit -am "made header picclickable"
+git push
+cd ../turtlesturtlesturtles/
+ls
+./build
+cp -R _site/* ../madjestic.github.io/
+cd ../madjestic.github.io/
+git add -u
+git push
+cd ../turtlesturtlesturtles/
+./build
+cd ../madjestic.github.io/
+git commit -am "updating header Home link"
+git push
+emacs index.html 
+emacs index.html 
+cd ../turtlesturtlesturtles
+emacs templates/default.html
+./build
+emacs templates/default.html &
+./build
+./build
+ls
+cd ..
+ls
+cd test01/
+cd ..
+ls
+cd turtlesturtlesturtles
+./build
+./build
+./build
+./build
+./build
+cd templates/
+ls
+cp default.html default.html.bak 
+cd ..
+./build
+./build
+emacs &
+./build
+ls
+cd js
+ls
+cd ..
+ls
+emacs templates/default.html &
+ls
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+ghc --make site.hs
+./build
+./build
+./build
+./build
+rm _site/index.html 
+./build
+emacs build.sh
+./build
+cp -R _site/* ../madjestic.github.io/
+cd ../madjestic.github.io/
+ls -lah
+git add ./*
+git add -u
+git status
+git commit -am "finishing blog update"
+git push
+git push
+emacs &
+cd ../turtlesturtlesturtles
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+cp -R _site/* ../madjestic.github.io/
+cd ../madjestic.github.io/
+git add -u
+git commit -am "fixing syntax highlighting"
+git push
+cd ../turtlesturtlesturtles
+ls
+./build
+./build
+cp css/starter-template.css ../madjestic.github.io/css/
+cd ../madjestic.github.io/
+git add -u
+got status
+git status
+git commit -am "done"
+git push
+cd Projects/blogs
+ls
+cd puurbliss.nl/
+ls
+cd ..
+cp -R turtlesturtlesturtles/* puurbliss.nl/
+cd puurbliss.nl/
+ls
+ls
+ls
+emacs &
+ls
+ghc --make site.hs
+ghc --make site.hs
+ls -la
+ghc --make site.hs
+./build
+emacs build.sh
+emacs site.hs
+ghc --make site.hs
+./build
+ghc --make site.hs
+rm site
+ghc --make site.hs
+./build
+ghc --make site.hs
+emacs make.sh
+ls -lah
+chmod +x make.sh
+ls -lah
+ln -s make.sh make
+ls -lah
+./make
+./make
+./make
+./build
+./build
+./build
+emacs templates/main.html &
+./build
+./build
+./make
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+emacs build.sh
+./build
+./build
+ls
+cd posts/
+ls
+rm \#2013-12-30-post-post-modern-opengl-in-haskell-2.md# 
+ls
+cd ..
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./make
+./make
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+cd Projects/blogs/puurbliss.nl/
+ls
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+./build
+ls
+ln -s ~/.local/share/Steam/SteamApps/common/FEZ/FEZ ~/bin/FEZ
+cd ~
+su
+eix xmind
+eix nvidia
+su
+emacs /home/madjestic/README 
+emacs /home/madjestic/README &
+cd /usr/src/
+ls
+cd linux-3.10.25-gentoo
+cd ~
+emacs README 
+eix gftp
+eix gcc
+eix -I gcc
+optirun bash
+su
+optirun bash
+su
+su
+lsmod
+optirun bash
+glxgears 
+lsmod 
+modprobe bbswitch
+su
+emacs /home/madjestic/org/index.org
+glxgears 
+cd bin/
+cd ..
+ln -s /opt/hfs13.0.286 houdini
+ls
+cd houdini13.0/
+ls
+cd config
+ls
+ln -s ~/.local/share/applications/houdini/houdini_setup houdini_setup
+ls
+ls
+ls -la
+cd ~
+su
+optirun bash
+cd ~
+ls
+ls -lah
+mkdir TMP
+ls
+mv TMP tmp
+ls
+touch foo
+touch tmp/foo
+emacs tmp/foo
+rm foo
+hl tmp/foo foo
+ls
+cat foo
+emacs tmp/foo
+cat foo
+hl tmp/foo foo
+cat foo
+ln --help
+ls -ali
+ls tmp/ -ali
+emacs tmp/foo &
+ls tmp/ -ali
+ls
+eix hothasktags
+cabal list hothasktags
+su
+su
+ls
+hothasktags Main.hs
+ls
+hothasktags --help
+hothasktags Main.hs >> TAGS
+ls
+cat TAGS 
+ls
+cd HNGL
+ls
+hothasktags Rendering.hs >> TAGS
+ls
+hothasktags LoadShaders.hs >> TAGS
+cat TAGS 
+cd ..
+emacs TAGS 
+cd HNGL/
+emacs TAGS &
+etags Rendering.hs
+ls
+cat TAGS 
+ls
+cd ..
+find . | egrep '\.hs$' | xargs hothasktags > tags
+ls
+tm TAGS 
+rm TAGS 
+cat tags 
+emacs ~/README 
+ls
+cd HNGL/
+find . | egrep '\.hs$' | xargs hothasktags > tags
+ls
+emacs tags 
+rm tags 
+rm TAGS 
+cd ..
+rm tags 
+ls
+cd ~
+emacs .emacs.el
+ls
+cd ..
+cd ../..
+cd blogs/
+ls
+ls -la
+cd puurbliss.nl/
+ls
+ls -la
+cd ..
+ls
+cd turtlesturtlesturtles
+ls
+ls -la
+rm \#.dump# 
+ls -la
+rm .#.dump 
+ls -la
+cd ..
+ls
+cd madjestic.github.io/
+ls
+cd ..
+ls
+cd madjestic.github.io/
+ls
+rm -rf ./* && cp -R ../turtlesturtlesturtles/_site/* ./*
+ls
+rm -rf ./* && cp -R ../turtlesturtlesturtles/_site/* .*
+ls
+ls
+cp -R ../turtlesturtlesturtles/_site/* /.*
+ls
+cp -R ../turtlesturtlesturtles/_site/* ./
+cp -R ../turtlesturtlesturtles/_site/* .*
+ls
+ls -lah
+cp -R ../turtlesturtlesturtles/_site ./
+ls
+cp -R ../turtlesturtlesturtles/_site/* ./
+ls
+rm -rf ./* && cp -R ../turtlesturtlesturtles/_site/* ./
+ls
+ls
+rm ./* ^atom.xml
+ls
+rm -rf ./* && cp -R ../turtlesturtlesturtles/_site/* ./
+ls
+ls a*
+ls a* | grep atom.xml
+ls a* | grep atom.xml | cat
+
+ls a* | grep atom.xml >> cat
+cat atom.xml 
+echo "rm -rf ./* && cp -R ../turtlesturtlesturtles/_site/* ./" >> .update
+ls -lah
+chmod .update +x
+chmod +x .update
+ls
+ls -lah
+emacs .update &
+ls
+rm -rf ./*
+ls
+cd ..
+ls
+rm madjestic.github.io
+rm -rf madjestic.github.io
+ls
+git clone https://github.com/madjestic/madjestic.github.io
+ls
+cd madjestic.github.io/
+ls
+ls -lah
+cp -R ../turtlesturtlesturtles/_site/ ./*
+ls -lah
+git add -u
+git status
+git add about.html archive.html atom.xml contact.html css images index.html js posts
+ls
+git status
+git commit -am "updating blog files"
+git push
+cd ..
+ls
+cd ..
+cd ~
+eix mypaint
+su
+cd ~
+su
+cd ~/Projects/CPP/OpenGL/Excercises/tutorial03/
+ls
+ls -lah
+make
+ls -lah
+cd ..
+ls
+cd hello-gl/
+ls -lah
+make
+ls
+cd ..
+ls
+cd triangle_02
+ls
+ls -lah
+./triangle
+cd ~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial05/
+ls
+cd ..
+ls
+cd tutorial0
+cd tutorial05
+rm test
+ls
+cd ..
+ls
+git add tutorial05
+git add -u
+git status
+git commit -am "updating tutorial files"
+git push
+git push
+ls
+cd ..
+ls
+cd Tests/
+ls
+cd OpenGL_Tutorial/
+ls
+cd ..
+ls
+cd glfw_test_01
+ls
+cd ..
+ls glfw_test_02
+ls glfw_test_03
+ls hello_world_triangle
+ls test_01
+ls triangle_02
+cd ..
+ls
+cd GLUT/
+ls
+ghc Main.hs
+ls
+./ Main
+./Main
+emacs README 
+vim README 
+ls
+cd ..
+ls
+cd hello-gl/
+ls
+ghc hello-gl.hs
+cd ..
+ls
+ls
+cd triangle_01
+ls
+./main 
+cd ..
+cd triangle_02
+ls
+./triangle_02
